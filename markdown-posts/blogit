@@ -1,0 +1,7 @@
+#!/bin/bash
+rootpath='/Users/Hjort/Git/my-site'
+
+touch $rootpath/blog-posts/$1.html
+
+markdown $1 > $rootpath/blog-posts/$1.html
+echo $1.html >> $rootpath/blog-posts/post-index.txt
