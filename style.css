@@ -7,10 +7,11 @@
 }
 
 .placeholder {
-  font-family: "Helvetcia", Arial, sans-serif;
+  font-family: "Helvetcia Neue", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 4em;
+  font-variant: small-caps;
   margin-left: auto;
   margin-right: auto;
 }
