@@ -16,8 +16,15 @@
   </p></div>
 
   <?php
-    $post = file_get_contents('./blog-posts/test.html', true);
-    echo "Hi!";
+    $postNames = file('blog-posts/post-index.txt');
+    foreach($postNames as $post) {
+      echo "<div class='blogPost'>";
+      $post = substr($post, 0, strlen($post)-1);
+      $newPost = file_get_contents('./blog-posts/'.$post);
+      echo $newPost;
+      echo "<hr>";
+      echo "</div>";
+    }
   ?>
 </body>
 </html>
