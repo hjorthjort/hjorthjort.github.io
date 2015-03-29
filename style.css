@@ -1,11 +1,16 @@
-logo {
+.logo {
+  margin-top: 40px;
+  max-height: 500px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
-placeholder {
-  font-family: sans-serif;
+.placeholder {
+  font-family: "Helvetcia", Arial, sans-serif;
   font-weight: bold;
+  text-align: center;
+  font-size: 4em;
   margin-left: auto;
   margin-right: auto;
 }
