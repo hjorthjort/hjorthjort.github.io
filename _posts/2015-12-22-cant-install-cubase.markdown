@@ -82,11 +82,11 @@ Now remove the everything from `if` to the first closing curly bracket. Here's w
 
 Save and close the file, go back and open the folder again and install as usual.
 
-##### Before
+**Before**
 
 ![]({{ site.url }}/assets/cubase/highlight-function.jpg)
 
-##### After
+**After**
 
 ![]({{ site.url }}/assets/cubase/deleted.jpg)
 
