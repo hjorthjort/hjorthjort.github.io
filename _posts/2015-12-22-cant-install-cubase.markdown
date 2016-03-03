@@ -17,7 +17,7 @@ Running Yosemite or above and installing an old version of Cubase? Getting the e
 
 > You need at least Mac OS X 10.5.0 to install this software
 
-![](assets/cubase/error.jpg)
+![]({{ site.url }}/assets/cubase/error.jpg)
 
 and then the installer shuts down?
 
@@ -43,13 +43,13 @@ Which is super weird, since that is Mac OS X 10.5.0 is Leopard, which is 8 years
 
 2.  Open the folder. Right-click on the installer package named "Cubase X" and select "Show Package Contents". Navigate into Contents.
 
-![](assets/cubase/folder.jpg)
+![]({{ site.url }}/assets/cubase/folder.jpg)
 
-![](assets/cubase/package-contents.jpg)
+![]({{ site.url }}/assets/cubase/package-contents.jpg)
 
-![](assets/cubase/contents.jpg)
+![]({{ site.url }}/assets/cubase/contents.jpg)
 
-![](assets/cubase/select-distribution.jpg)
+![]({{ site.url }}/assets/cubase/select-distribution.jpg)
 
 1.  Right-click on the text file called "distribution.dist" and open in TextEdit or any other raw text editor.
 
@@ -84,11 +84,11 @@ Save and close the file, go back and open the folder again and install as usual.
 
 ##### Before
 
-![](assets/cubase/highlight-function.jpg)
+![]({{ site.url }}/assets/cubase/highlight-function.jpg)
 
 ##### After
 
-![](assets/cubase/deleted.jpg)
+![]({{ site.url }}/assets/cubase/deleted.jpg)
 
 #### Done!
 
