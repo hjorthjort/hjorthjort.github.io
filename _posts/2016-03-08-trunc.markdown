@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Trunc – I did it my way"
+date: "2016-03-08 16:03:37 +0100"
+---
+
+I don't like the `truncate` command line tool. I use it way to often to want to type the flags. And I have never, ever used it for anything but to completely truncate a file.
+
+So I hacked up my own little `trunc`-func.
+
+{%highlight bash%}
+
+    #!/bin/bash
+    function delete {
+        printf "" > $1
+        echo "Truncated $1"
+    }
+
+    function keep {
+        echo "File untouched"
+    }
+
+    if [ -z "$1" ]; then
+        echo "No file specified"
+        exit
+    fi
+    read -n1 -p "Truncate file? [yN]" delete
+    printf "\n"
+    case $delete in
+        y|Y) delete $1 ;;
+        *) keep ;;
+    esac
+
+{%endhighlight%}
+
+Example:
+
+{%highlight bash%}
+    $ cat afile.code
+    Code
+    And other stuff
+    $ trunc afile.code
+    Truncate file? [yN]<press y>
+    Truncated afile.code
+    $ cat afile.code
+    $ 
+{%endhighlight%}
+
+Continous development (or not) on [GitHub][github].
+
+[github]: https://github.com/hjorthjort/Scripts
