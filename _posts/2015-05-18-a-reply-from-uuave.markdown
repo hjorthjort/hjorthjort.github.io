@@ -9,8 +9,7 @@ categories: old-site
 
 *This is a follow-up post to [the previous post](#EightEight.md.html).*
 
-> *As you yell, you get answered.*
-
+> *As you yell, you get answered.* <br>
 > —(Terrible) Swedish proverb
 
 I got a reply back from the gang at uuave a few hours ago. Judging from
@@ -31,7 +30,7 @@ Yay!
 
 ### EDIT: Alas, my work is not done
 
-> *Don't yell "Hello!" too soon.*
+> *Don't yell "Hello!" too soon.* <br>
 > —What the hell is the problem with Sweidsh proverbs?
 
 So, as they said, they amended the wording on the page. It now says
