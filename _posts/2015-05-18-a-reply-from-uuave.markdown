@@ -32,7 +32,6 @@ Yay!
 ### EDIT: Alas, my work is not done
 
 > *Don't yell "Hello!" too soon.*
-
 > —What the hell is the problem with Sweidsh proverbs?
 
 So, as they said, they amended the wording on the page. It now says
