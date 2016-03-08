@@ -19,7 +19,7 @@ Fast, ad hoc protection mechanism
 
 From what I gather, these ransomwares traverse the file system in the regular order: serially (no parallization) and from the root directory. Encrypting a file with 2048 bit RSA can take a while, so if you can halt the encryption somehow, you might catch it in time, before too much damage is done.[^unix-recover] Some people have suggested that you put a huge file (like a 4GB Windows installer) at the top of your home directory or something similar, which would buy some time. That way, if you spend a lot of time in your file system (like me, I `cd` and `ls` and `tree` and `grep` my way through the day) then you are likely to find some traces of the malware working before it has come too far.
 
-Some people have suggested that these ransomware tend to follow symlinks, which would make sense. If you have a symlink to something in you Documents directory, it's likely something that ransomers would like to encrypt. Although, I'm not sure this is the case. So I made myself a little guard-file.
+Some people have suggested that these ransomware tend to follow symlinks, which would make sense. If you have a symlink to something in you Documents directory, it's likely something that ransomers would like to encrypt.[^symlinks] So I made myself a little guard-file.
 
 {%highlight bash%}
 $ cd ~
@@ -47,6 +47,8 @@ This goes for anything you create or cherish, and even your TODO:s and appointme
 
 Be safe.
 
+
+[^symlinks]: Although, I'm not sure this is the case. It's entirerly possible that the encryption ignores symlinks, to avoid encrypting the same file many times. I will be sure to look more at the ransomware source code if I get the chance.
 [^unix-recover]: This "stopping damage at some point in the file system" makes me think of this wonderful post: [Unix Recovery Legend][unix-rec], which is about how you save a system that has been halfway destroyed.
 
 [^setup]: I did mis my dotfiles and vim plugins though, but I didn't want to install my configs, since they are harder to remove than brew installation.
