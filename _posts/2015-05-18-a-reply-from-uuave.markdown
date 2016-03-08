@@ -25,7 +25,9 @@ Here's the reply:
 
 > *thanks rikard, i have amended the wording on the about page. also yeah we have some matches already they're showing now. none of them are verified so we weren't showing them but i am getting tired of getting emails like this so i updated the count*
 
-Yay! ![Man looking at equations floating before his eyes](http://media1.giphy.com/media/i58xhIseqtRpC/giphy.gif)
+Yay! 
+
+![Man looking at equations floating before his eyes](http://media1.giphy.com/media/i58xhIseqtRpC/giphy.gif)
 
 ### EDIT: Alas, my work is not done
 
