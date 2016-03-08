@@ -77,4 +77,6 @@ It took about a second, including me hitting a key. I'd say that's good enough.
 
 Continous development (or not) on [GitHub][github].
 
+P.S. Aliases are less fun
+
 [github]: https://github.com/hjorthjort/Scripts
