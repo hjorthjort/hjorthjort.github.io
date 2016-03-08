@@ -46,6 +46,34 @@ Example:
     $ 
 {%endhighlight%}
 
+And just to check, here's a little performance test. I create a *huge* file and then truncate it.
+
+{%highlight bash%}
+    $ cat /dev/random > tmp&
+    [1] 85326
+    <let this run for a while>
+    $ kill 85326
+    [1]  + 85326 terminated  cat /dev/random > tmp
+    $ ls -l tmp
+    -rw-r--r--  1 hjort  staff   7.5G Mar  8 16:43 tmp
+    $ date ; wc tmp ; date
+    Tue Mar  8 16:46:28 CET 2016
+     31369335 243126635 8031531008 tmp
+    Tue Mar  8 16:47:44 CET 2016
+{$endhighlight%}
+
+So we have a 7.5 GB file here. That's about as big as anything I ever touch in my file system at once. It took over a minute to do a wourd count in it. Let's make sure it doesn't take forever to truncate. I will print the date, truncate, hit `y` quick, and the print hte date again.
+
+{%highlight bash%}
+    $ date ; trunc tmp ; date
+    Tue Mar  8 16:49:12 CET 2016
+    Truncate file? [yN]y
+    Truncated tmp
+    Tue Mar  8 16:49:13 CET 2016
+{%endhighlight%}
+
+It took about a second, including me hitting a key. I'd say that's good enough.
+
 Continous development (or not) on [GitHub][github].
 
 [github]: https://github.com/hjorthjort/Scripts
