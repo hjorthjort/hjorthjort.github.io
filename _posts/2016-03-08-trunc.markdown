@@ -51,7 +51,7 @@ And just to check, here's a little performance test. I create a *huge* file and 
 {%highlight bash%}
     $ cat /dev/random > tmp&
     [1] 85326
-    <let this run for a while>
+    # let this run for a while
     $ kill 85326
     [1]  + 85326 terminated  cat /dev/random > tmp
     $ ls -l tmp
@@ -60,9 +60,9 @@ And just to check, here's a little performance test. I create a *huge* file and 
     Tue Mar  8 16:46:28 CET 2016
      31369335 243126635 8031531008 tmp
     Tue Mar  8 16:47:44 CET 2016
-{$endhighlight%}
+{%endhighlight%}
 
-So we have a 7.5 GB file here. That's about as big as anything I ever touch in my file system at once. It took over a minute to do a wourd count in it. Let's make sure it doesn't take forever to truncate. I will print the date, truncate, hit `y` quick, and the print hte date again.
+So we have a 7.5 GB file here. That's about as big as anything I ever touch in my file system at once. It took over a minute to do a wourd count in it. Let's make sure it doesn't take forever to truncate. I will print the date, truncate, hit `y` quick, and the print the date again.
 
 {%highlight bash%}
     $ date ; trunc tmp ; date
