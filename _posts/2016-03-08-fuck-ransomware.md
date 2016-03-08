@@ -19,7 +19,7 @@ Fast, ad hoc protection mechanism
 
 From what I gather, these ransomwares traverse the file system in the regular order: serially (no parallization) and from the root directory. Encrypting a file with 2048 bit RSA can take a while, so if you can halt the encryption somehow, you might catch it in time, before too much damage is done.[^unix-recover] Some people have suggested that you put a huge file (like a 4GB Windows installer) at the top of your home directory or something similar, which would buy some time. That way, if you spend a lot of time in your file system (like me, I `cd` and `ls` and `tree` and `grep` my way through the day) then you are likely to find some traces of the malware working before it has come too far.
 
-Some people have suggested that these ransomware tend to follow symlinks, which would make sense. If you have a symlink to something in you Documents directory, it's likely something that ransomers would like to encrypt.[^symlinks] So I made myself a little guard-file.
+Some people have suggested that these ransomware tend to follow symlinks, which would make sense. If you have a symlink to something in you Documents directory, it's likely something that ransomers would like to encrypt. So I made myself a little guard-file.
 
 {%highlight bash%}
 $ cd ~
@@ -28,9 +28,9 @@ $ ln -s /dev/random 0000fuck_ransomware.doc
 
 See? That symlinks to `/dev/random`, which behaves like a never ending file – you will never get and end-of-file in there. I tried encrypting it with `openssl` and RSA, which of course didn't work. Since the whole file needs to be read before it can be encrypted, the encryption never stops – you can never read the whole file.
 
-Now, I put this in my home directory. That means it comes before my Documents, Dropbox, Code, Blog – everything. Meaning the encryption should halt at this file forever, or at least until a timeout.
+Now, I put this in my home directory. That means it comes before my Documents, Dropbox, Code, Blog – everything. Meaning the encryption should halt at this file forever, or at least until a timeout.[^caveat]
 
-Or maybe this doesn't do shit. Maybe the ransomwares out there don't follow symlinks and/or uses timouts to avoid large files. So is it wise to rely on this alone? Fuck no.
+So is it wise to rely on this alone? Fuck no.
 
 Epilogue: Real protection – my view on security
 ---------------
@@ -48,7 +48,8 @@ This goes for anything you create or cherish, and even your TODO:s and appointme
 Be safe.
 
 
-[^symlinks]: Although, I'm not sure this is the case. It's entirerly possible that the encryption ignores symlinks, to avoid encrypting the same file many times. I will be sure to look more at the ransomware source code if I get the chance.
+[^caveat]: Or maybe this doesn't do shit. Maybe the ransomwares out there don't follow symlinks to avoid encrypting the same file several times. Maybe they use timeouts to avoid spending time on really large files. I will be sure to look more at ransomware source code when I get the chance.
+
 [^unix-recover]: This "stopping damage at some point in the file system" makes me think of this wonderful post: [Unix Recovery Legend][unix-rec], which is about how you save a system that has been halfway destroyed.
 
 [^setup]: I did mis my dotfiles and vim plugins though, but I didn't want to install my configs, since they are harder to remove than brew installation.
