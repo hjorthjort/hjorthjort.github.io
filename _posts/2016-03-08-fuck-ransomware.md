@@ -5,7 +5,7 @@ date: 2016-03-08 11:00:00 +0100
 categories: security
 ---
 
-I read that there is now a large scale ransomware haunting Mac users. It's called [KeRanger][paloalto-keranger] and has infected the 2.90 installer of the BitTorrent client [Transmission][transmission]. This happened 4 days ago, on March 4. There are patches now. I don't know how many people was affected.
+I read that there is now a large scale ransomware haunting Mac users. It's called [KeRanger][paloalto-keranger] and has infected the 2.90 installer of the BitTorrent client [Transmission][transmission]. This happened 4 days ago, on March 4. There are patches now. I don't know how many people were affected.
 
 Ransomware quick guide
 ----------------------
