@@ -15,7 +15,7 @@ which gives me this:
 
 ![A formula rendered by the above LaTeX code]({{ site.url }}/assets/latex_rev_n.png)
 
-Which is alright, if it wasn't for the fact that I *have to write it a hundred damn times*. I will rarely wan't to write "rev" without formatting it in sans serif, at least in this document. So doing it by hand all the time seems to me like a violation of DRY. Why shouldn't writing obey DRY? 
+Which is alright, if it wasn't for the fact that I *have to write it a hundred damn times*. All in all, these kinds of very special wordings probably doubles the time I have to spend writing, perhaps triples it. Writing something down on paper takes a fraction of the time it takes to write it out in LaTeX when I want it too look just right. I will rarely wan't to write "rev" without formatting it in sans serif, at least in this document. So doing it by hand all the time seems to me like a violation of DRY. Why shouldn't writing obey DRY? 
 
 I'm using Vim, so here are some things I could do about it:
 
