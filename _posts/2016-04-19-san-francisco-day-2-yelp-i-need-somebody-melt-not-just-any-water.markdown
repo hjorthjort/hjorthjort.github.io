@@ -5,6 +5,8 @@ date: "2016-04-19 09:30:40 -0700"
 categories: travel san-francisco
 ---
 
+*I'm going to San Francisco for a short stint. These are the never before revelead blog posts about what happens day to day on that trip.*
+
 Yesterday began the company tour that we are officially here for. We started with Yelp!. For those uninitiated, Yelp! (which I will stop writing with an exclamation point from now on) is a service where users can rate and review almost any business, big or small, via an app or the web. It's huge in the US, not as big in Sweden. In San Francisco and, I think, the US in general it is the go-to source to check if restaurants are any good and stores have good service.[^yelp-rating]
 
 The place was surprisingly familiar. Naked brick and whiteboards, trinkets on the desks, open plan, conference rooms with funny names. Companies are comapnies everywhere, and meetings are meetings. The difference between working here and in Sweden wouldn't be too big, I think. The same actually goes for comapny culture. It seems the work/life balance is alright. The tech companies have figured out that long working hours don't translate to faster results, necessarily. On the other hand, I hear rumors that it's what they tell you, but in reality people are workaholics.

@@ -5,6 +5,8 @@ date: "2016-04-19 22:52:45 -0700"
 categories: travel san-francisco
 ---
 
+*I'm going to San Francisco for a short stint. These are the never before revelead blog posts about what happens day to day on that trip.*
+
 Sweden, you've been great. But I'm not coming back. This place is just to great to stay away from, and I want to stay here for the next few years. After visiting The Big Three of this trip – Stanford, Google and Facebook – I've just seen to much of what this place has to offer.
 
 <Panorama-bilderna>
