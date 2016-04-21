@@ -5,7 +5,7 @@ date: "2016-04-19 22:52:45 -0700"
 categories: travel san-francisco
 ---
 
-*I'm going to San Francisco for a short stint. These are the never before revelead blog posts about what happens day to day on that trip.*
+*I'm going to San Francisco for a short stint. These are the never before revelead blog posts about what happens day to day on that trip. This post has been lying around for an extra day or two because of a lack of wifi and time to finish it. Also because there is beer here. Beer is bad for blogging time.*
 
 Sweden, you've been great. But I'm not coming back. This place is just to great to stay away from, and I want to stay here for the next few years. After visiting The Big Three of this trip – Stanford, Google and Facebook – I've just seen to much of what this place has to offer.
 
@@ -16,7 +16,9 @@ Knowing that my mother reads this, at this time I want to calrify that I *am* co
 
 # Stanford
 
-The first stage of mind blow was going to Stanford. A girl from Chalmers doing her masters here towed us around. First she said that the place is really big, so she *had* to use a bike to get around – on wide, unworn asphalt roads between centery old buildings. Doesn't sound like to much of a hassle to my ears. She showed us parts of the huge collection of [Rodin][rodin] sculptures, including [Gates of Hell][gates], [Orpheus][orpheus] and [The Thinker][thinker]. They were all there in bronze cast, in outdoor sculpture parks for everyone to touch, see and contemplate, right next to cafés and study halls. She showed us the first Google server, on display outside of a lecture hall. We walked around the sprawling campus, seeing all the restaurants and frat activities, going into the massive bookstore, seeing people enjoy the sun while toiling over their books. It was heaven.
+> I asked a ton of questions. They were all a variation on a single theme: how do I get here? 
+
+The first stage of mind blow was going to Stanford. A girl from Chalmers, Sara, doing her masters here towed us around. First she said that the place is really big, so she *had* to use a bike to get around – on wide, unworn asphalt roads between centery old buildings. Doesn't sound like to much of a hassle to my ears. She showed us parts of the huge collection of [Rodin][rodin] sculptures, including [Gates of Hell][gates], [Orpheus][orpheus] and [The Thinker][thinker]. They were all there in bronze cast, in outdoor sculpture parks for everyone to touch, see and contemplate, right next to cafés and study halls. She showed us the first Google server, on display outside of a lecture hall. We walked around the sprawling campus, seeing all the restaurants and frat activities, going into the massive bookstore, seeing people enjoy the sun while toiling over their books. It was heaven.
 
 ## Going across the pond
 
@@ -32,18 +34,49 @@ The school is amazing in every conceivable way. The research is cutting edge in 
 
 So, there's only one thing left for me to do. I need to keep reminding myself that this is possible and how much I want it[^motivation], and then start the process of transeferring, whatever it might take. To remind myself, I made sure to buy a t-shirt, a sticker and a hat with the Stanford logo. I plan to keep these on display in my home, and wear them in public. That way, I *have* to go. Otherwise I'll just be some guy that has a bunch of swag from a university I have no affiliation with. I don't want to be that person. I want to be at Stanford.
 
-
-<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BEZKzQcuW8t/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Bredvid den första Google-servern.</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Rikard Hjort (@lolangest) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-04-19T19:17:13+00:00">Apr 19, 2016 at 12:17pm PDT</time></p></div></blockquote>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BEZKzQcuW8t/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Me next to the first Google server</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Rikard Hjort (@lolangest) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-04-19T19:17:13+00:00">Apr 19, 2016 at 12:17pm PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-[^motivation]: This is actually part of my motivation to write this blog post – to remind myself of what I felt at Stanford (and at Google and Facebook) so that I will not convince myself that it wasn't that great and I'm better off at home, and also to put in writing all the advice I got on how to start that process.
+# Google
+
+A bit of a disappointment.
+
+Not that the company is uninteresting, that the campus wasn't exciting or that there was anything wrong with our guides[^guides]. It's just that apparently Google get *so many visits* every day that they have had to move the visitors center to a separate area. The Googleplex is such a tourist attraction that all the people walking around with cameras has become too much of an annoyance and they had to move everything from [the Android statues][statues] to the gift shop and visitor lecture rooms to a separate complex, somewhat away from the Googleplex.
+
+Other than that, Google cemented the image of being a good comapny to work for. They had the usual perks like snacks and free lunch on display. They had bulletins about testing hanging on the toilet. They had a bronze cast T-rex skeleton on campus that Larry Page apparently bought at some point because he liked it. It's a very nerdy culture, I got the feeling that the place is full of hard working geeks, and that you could just dive right into it and never come up for air. I'm more excited about my internship now than ever.
+
+# Facebook
+
+The Facebook visit was a side track that I had managed to set up myself by finding a Swedish recruiter for Facebook on LinkedIn. It would have been great to be able to bring the whole gang on this trip, but this time I was limited to bringing two more people. Since ArmIT are the ones who organised this trip, I felt it was only fair to give back to them, and I got to bring along two of them this time. 
+
+> If Google is a bunch of nerds at their own table, with their nerdy jokes and ideas for how to best conduct business, then Facebook were those same nerds throwing a great barbeque party in their garden where everyone was invited.
+
+At Facebook we met Emil and Omid, two Swedish engineers who were glowing, nerdy jokers. They took us to dinner on the Facebook campus and we talked algorithms, perks, Sweden, nerd jokes and bugs for the better part of an hour. I don't think more than two minutes ever passed without a good laugh at some point. Emil and Omid showed us the Facebook woodshop, talked about the art that adorned every nook and cranny of the campus[^art],  and talked about their day to day work.
+
+We got to see the main headquarters. It looked like a German car factory, with long, straight lines of concrete, steel an glass, and a sleek, almost aerodynamic flow of shapes. When we climbed the ramps on the outside of the building up towards the roof, we could see a large swamp stretching as far as we could see – a nature reserve that is home to rare birds, we learned – and on the roof there was a "park". It was referred to as a park, but honestly, it was a botanical garden. Trees with low hanging branches, tall-standing grass, blooming trees, all was there. In every corner there were benches, resting pods and meditation areas. There were lawns for barbecues and parties. There was tables of steel and glass breaking through the foliage that we learned were natural light inlets into the offices below.
+
+<Botanisk tradgard bilder>
+
+And the office in itself was next level. The world's largest open space office, it still felt surprisingly cosy and private. Much like an IKEA warehouse, it had long, winding corridors surrounding a sea of desks. The desks were spread out in an almost random fashion, so that it seemed hard to walk across the work area. That way, people didn't zip around each other's desk all the time, but there were nothing keeping anyone from crossing the floor in any fashion they wanted. Everything about the place made me feel that if Google is a bunch of nerds at their own table, with their nerdy jokes and ideas for how to best conduct business, then Facebook were those same nerds throwing a great barbeque party in their garden where everyone was invited: nerds and artists, rebels and workaholics, and everyone was welcomed with open arms. It seems like a great place to work. When we said goodbye to Emil (Omid had left us a little bit before), he urged us to apply – now or when we graduate – and encourage our friends to do the same. You never know if you will get hired. And you don't know if you'll like it until you try. He wanted to make sure we didn't forget that.
 
 <Panorama-bilderna>
 
-[rodin]: <wiki>
-[gates]: 
-[orpheus]:
-[thinker]:
-[fulbright]:
-[lundin]:
-[wallenberg]:
+# Wrapping up
+
+A long car ride back to San Francisco, we ended up at a Taco Tuesday, drank cheap beer and joked and drank until the place closed. I can really see this pace of life fitting me, and every now and then during the evening, I drifted off in thoughts about what plans I should start making to make sure I end up here. 
+
+Time will tell.
+
+[^motivation]: This is actually part of my motivation to write this blog post – to remind myself of what I felt at Stanford (and at Google and Facebook) so that I will not convince myself that it wasn't that great and I'm better off at home, and also to put in writing all the advice I got on how to start that process.
+
+[^guides]: Alright, maybe they were a bit long-winded.
+
+[^art]: Facebook hires art students to spend a couple of weeks to create permanent installations of campus. The whole place feels like a crossbreed between east Berlin and a college campus, thanks to all the cool buildings, people on bikes, food places and art installations.
+
+[rodin]: https://en.wikipedia.org/wiki/Auguste_Rodin
+[gates]: https://en.wikipedia.org/wiki/The_Gates_of_Hell
+[orpheus]: http://cdn2.brooklynmuseum.org/images/opencollection/objects/size2/84.75.3_SL1.jpg
+[thinker]: https://en.wikipedia.org/wiki/The_Thinker
+[fulbright]: http://www.fulbright.se/
+[lundin]: http://www.wmlundgren.se/#Vetenskap
+[wallenberg]: http://www.wallenberg.org/
