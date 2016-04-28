@@ -1,0 +1,5 @@
+In my old job, I would sometimes attend professional lecturers' gigs. The goal was to figure out some sort of communication package that we could sell to them, that would mean we'd work as their consultants and coaches around all things regarding communication and brand. I remember one lecture in particular. I don't  remember the guys name right now, but he was an ex-salesman. He was super charming, had kind blue eyes, was very warm and friendly and talked at length about finding you purpose in life. Even though there was some of the usual fluff and hyperboles that I've come to expect from speakers out on the lecture trail, he seemed to have his stuff together – sound theories based on good axioms and some solid rules that one could apply. Cool guy. But today I remember one thing he said that really struck me, that I want to talk about today. It was about finding a partner-in-work.
+
+He was a salesman, his friend was a numbers guy. Insisted on being hired together.
+
+Today Stripe launched BYOT hiring
