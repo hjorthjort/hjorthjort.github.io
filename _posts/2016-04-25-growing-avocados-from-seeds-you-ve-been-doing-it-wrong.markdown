@@ -120,6 +120,15 @@ completely open.
 
 **Details:** Both groups will have water changed every week.
 
+# Results
+
+Avocado seeds are named alphabetically in the order they are retrieved. Naming convention is musicians and bands in my LP rack.
+
+| Name | Removed from fruit | Toothpicked or Submerged |
+|------------------------------------------------------|
+| Alpaca Sports | 2016-04-29 | Submerged |
+
+
 [^science]: Yay, science!
 
 [tree-img]: https://upload.wikimedia.org/wikipedia/commons/2/2e/Avocado_Seedling.jpg
