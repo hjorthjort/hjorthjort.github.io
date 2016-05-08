@@ -126,8 +126,8 @@ Avocado seeds are named alphabetically in the order they are retrieved. Naming c
 
 | Name | Removed from fruit | Toothpicked or Submerged | Maturity | First visible crack | Planted | Done |
 |------------------------------------------------------|
-| Alpaca Sports | 2016-04-29 | Submerged | Peel came off easily | | N/A | |
-| Beach Boys | 2016-05-03 | Toothpicked | Peel came off after a day submerged| | | |
+| Alpaca Sports | 2016-04-29 | Submerged | Peel came off easily | | | |
+| Beach Boys | 2016-05-03 | Toothpicked | Peel came off after a day submerged| | N/A | |
 | Chet Baker | 2016-05-06 | Submerged | Peel came of easily | | | |
 | David Bowie | 2016-05-08 | Toothpicked | Peel came off easily | | N/A | |
 
