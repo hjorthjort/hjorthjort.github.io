@@ -124,11 +124,11 @@ completely open.
 
 Avocado seeds are named alphabetically in the order they are retrieved. Naming convention is musicians and bands in my LP rack.
 
-| Name | Removed from fruit | Toothpicked or Submerged | Comment |
+| Name | Removed from fruit | Toothpicked or Submerged | Maturity | First visible crack | Planted | Done |
 |------------------------------------------------------|
-| Alpaca Sports | 2016-04-29 | Submerged | Peel came off easily |
-| Beach Boys | 2016-05-03 | Toothpicked | Peel came off after a day submerged|
-| Chet Baker | 2016-05-06 | Submerged | Peel came of easily |
+| Alpaca Sports | 2016-04-29 | Submerged | Peel came off easily | | N/A | |
+| Beach Boys | 2016-05-03 | Toothpicked | Peel came off after a day submerged| | | |
+| Chet Baker | 2016-05-06 | Submerged | Peel came of easily | | | |
 
 
 [^science]: Yay, science!
