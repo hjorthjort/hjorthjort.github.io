@@ -124,12 +124,16 @@ completely open.
 
 Avocado seeds are named alphabetically in the order they are retrieved. Naming convention is musicians and bands in my LP rack.
 
-| Name | Removed from fruit | Toothpicked or Submerged | Maturity | First visible crack | Planted | Done |
+| Name | Removed from fruit | Toothpicked or Submerged | Maturity | First visible crack | Rooting | Planted | Done |
 |------------------------------------------------------|
-| Alpaca Sports | 2016-04-29 | Submerged | Peel came off easily | | | |
-| Beach Boys | 2016-05-03 | Toothpicked | Peel came off after a day submerged| | N/A | |
-| Chet Baker | 2016-05-06 | Submerged | Peel came of easily | | | |
-| David Bowie | 2016-05-08 | Toothpicked | Peel came off easily | | N/A | |
+| Alpaca Sports | 2016-04-29 | Submerged | Peel came off easily | | | | |
+| Beach Boys | 2016-05-03 | Toothpicked | Peel came off after a day submerged| | 2016-05-23 | N/A | | 
+| Chet Baker | 2016-05-06 | Submerged | Peel came of easily | 2016-05-22 | | | |
+| David Bowie | 2016-05-08 | Toothpicked | Peel came off easily | | | N/A | | 
+| Elvis Costello | 2016-05-12 | Submerged | Peel came of easily | | | | |
+| Franke | 2016-05-15 | Toothpicked | Peel came off eaisly | | | N/A | | 
+| Gang of Four | 2016-05-16 | Submerged | Peel came off easily | | | | |
+| Håkan Hellström | 2016-05-23 | Toothpicked | Peel came off easily | | | N/A | | 
 
 
 [^science]: Yay, science!
