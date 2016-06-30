@@ -41,9 +41,9 @@ Which is super weird, since that is Mac OS X 10.5.0 is Leopard, which is 8 years
 
 ### Here's the quick fix
 
-1.  If you are installing from a CD, take the folder called **"Cubase X for MacOS X"** or something similar and **copy it** to your computer, e.g., your Desktop. You can do this by dragging and dropping.
+1:  If you are installing from a CD, take the folder called **"Cubase X for MacOS X"** or something similar and **copy it** to your computer, e.g., your Desktop. You can do this by dragging and dropping.
 
-2.  Open the folder. Right-click on the installer package named "Cubase X" and select "Show Package Contents". Navigate into Contents.
+2:  Open the folder. Right-click on the installer package named "Cubase X" and select "Show Package Contents". Navigate into Contents.
 
 ![]({{ site.url }}/assets/cubase/folder.jpg)
 
@@ -53,7 +53,7 @@ Which is super weird, since that is Mac OS X 10.5.0 is Leopard, which is 8 years
 
 ![]({{ site.url }}/assets/cubase/select-distribution.jpg)
 
-1.  Right-click on the text file called "distribution.dist" and open in TextEdit or any other raw text editor.
+3:  Right-click on the text file called "distribution.dist" and open in TextEdit or any other raw text editor.
 
 #### And here's the actual fix:
 
@@ -92,7 +92,7 @@ Save and close the file. Then, go into to your copy of the original folder, doub
 
 ![]({{ site.url }}/assets/cubase/deleted.jpg)
 
-4. After you're done installing, it might be a good idea to open Cubase, go to the menu and check for and install any updates.
+4: After you're done installing, it might be a good idea to open Cubase, go to the menu and check for and install any updates.
 
 #### Done!
 
