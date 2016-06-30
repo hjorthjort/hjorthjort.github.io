@@ -80,7 +80,7 @@ Now remove the everything from `if` to the first closing curly bracket. Here's w
             }
 {%endhighlight%}
 
-Save and close the file, go back and open the folder again and install as usual.
+Save and close the file. Then, go into to your copy of the original folder, doubleclick the .mpkg file and install as usual.
 
 **Before**
 
@@ -89,6 +89,8 @@ Save and close the file, go back and open the folder again and install as usual.
 **After**
 
 ![]({{ site.url }}/assets/cubase/deleted.jpg)
+
+4. After you're done installing, it might be a good idea to open Cubase, go to the menu and check for and install any updates.
 
 #### Done!
 
