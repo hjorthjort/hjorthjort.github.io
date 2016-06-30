@@ -101,6 +101,7 @@ You are done! Be happy and creative!
 **And don't sue me if anything goes wrong. Any risk is your own.**
 
 <a name="explain"></a>
+
 ## Wait, did I just remove something important?
 
 **Short answer:** Yes. But it was also broken.
