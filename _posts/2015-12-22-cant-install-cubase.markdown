@@ -110,7 +110,7 @@ You are done! Be happy and creative!
 
 What you just removed was a really important piece of code that makes sure you don't accidentaly install Cubase on a version of Mac OS X that is too old. Which is a good thing. However, it is only code in the **installer** – you didn't change anything in the actual program you installed.
 
-**So why was it telling me I was running an ancient version of OS X. I have the latest one!!!**
+**So why was it telling me I was running an ancient version of OS X? I have the latest one!!!**
 
 Because a programmer got lazy/was stressed/had a brain fart/thought "deal with it later", which are all basically different ways of saying the same thing when it comes to programming. Either that, or Steinberg aren't to keen on keeping their software alive forever. Probably a combination of both.
 
