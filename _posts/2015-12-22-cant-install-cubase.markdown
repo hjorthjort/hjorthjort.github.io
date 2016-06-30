@@ -5,6 +5,8 @@ date: 2015-12-22 22:04:00 +0100
 categories: old-site
 ---
 
+**Important: A few month after this post came up, Steinberg put out a tool called "Steinberg Application Installer Tool" that should solve the problem this post addresses. I suggest you try to use that, even if "Installer Tools" in general might be the most annoying thing you can have on your computer after virus-inducing toolbars. You can get it [here][tool].**
+
 So, you want to be down with the times, hip with the kids, keep your ear to the ground. You want the latest version of OS X. And why not! I looks good, feels good, and everyone is doing it these days! What could go wrong?
 
 Oh, what's that? You have an old Cubase version and it won't install on your fancy new OS or machine? Well, there's only one (cheap and easy) way around that. Let's get hacking.
@@ -138,3 +140,5 @@ So what did you do? You removed that whole version check. Now the installer coul
 * * *
 
 Hope that helped. Email me at hjort[squirell-a]hjorthjort{dot}com if you have any quetions or anything to add. Happy hacking! And happy hit-making!
+
+[tool]: http://www.steinberg.net/en/support/content_und_zubehoer/content_and_accessories_sait.html
