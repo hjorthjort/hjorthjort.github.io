@@ -6,7 +6,9 @@ date: "2016-11-25 20:00:35 +0100"
 
 I think "performative prose" is a perfect nickname for certain type of  code. The reason is
 not because all code is prose – or at least not *good* prose – but rather
-because that is what code *should* be a lot of times. I've recently developed a strong
+because that is what code *should* be a lot of times.[^performative]
+
+I've recently developed a strong
 fondness of all lines of code that read like sentences, which describe what
 they do; "I take this thing and do that to it and then I'll give you this
 back". Of course, this idea is not novel in itself, but I think the nickname
@@ -94,3 +96,5 @@ writing, has been long and strong, I hope to see that the rise of declarative
 and functional programming will bring forth more code written to be understood
 by someone new to the language, new to the framework, or, in the best of
 worlds, new to code altogether.
+
+[^performative]: I think the "performative" part of the nickname is more obivous than the "prose" part, since most people understand that being "performative" kinda means that it "does something to the world". Even so, if you want to dive deeper into what performativity means in the context of human language (and its central role in some of the humanities), go ahead and read a section in the [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/entries/speech-acts/#ConForHowSayMakItSo).
