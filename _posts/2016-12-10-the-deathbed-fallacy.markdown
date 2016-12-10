@@ -128,6 +128,9 @@ Please, don't have to much respect for deathbed you. They are in a weird place,
 where the future is suddenly completely unimportant and the past is
 everything. Is that who you want to be dictating your life?
 
+*This post might be a work in progress. I hope I can clarify my ideas further,
+but I want to put them out there as the draft they are.*
+
 [wbw]: http://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html
 [deathbed]: http://bronnieware.com/regrets-of-the-dying/
 [smbc]: http://www.smbc-comics.com/?id=3474

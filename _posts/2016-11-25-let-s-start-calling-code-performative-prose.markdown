@@ -51,7 +51,7 @@ This, on the other hand, is an example of performative prose:
 isSudoku su@(SudokuOf rows) = correctHeight && correctWidth && correctCells
     where
         correctHeight = size == length rows
-        correctWidth  = all (\row -> length row == size) rows
+        correctWidth  = (\row -> length row == size) `all` rows
         correctCells   = allCells isValidCell {-in-} su
         isValidCell   = True `maybe` (\n -> n>=1 && n<=size)
 ```
