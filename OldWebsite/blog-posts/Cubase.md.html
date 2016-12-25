@@ -1,0 +1,107 @@
+<h1 id="cant-install-cubase-on-mac-running-yosemite-or-el-capitan-heres-how-you-fix-it.">Can't install Cubase on Mac running Yosemite or El Capitan? Here's how you fix it.</h1>
+<p>So, you want to be down with the times, hip with the kids, keep your ear to the ground. You want the latest version of OS X. And why not! I looks good, feels good, and everyone is doing it these days! What could go wrong?</p>
+<p>Oh, what's that? You have an old Cubase version and it won't install on your fancy new OS or machine? Well, there's only one (cheap and easy) way around that. Let's get hacking.</p>
+<h2 id="tldr">TL;DR</h2>
+<p>Running Yosemite or above and installing an old version of Cubase? Getting the error message</p>
+<blockquote>
+<p>Wrong Mac OS X Version</p>
+</blockquote>
+<blockquote>
+<p>You need at least Mac OS X 10.5.0 to install this software</p>
+</blockquote>
+<div class="figure">
+<img src="blog-posts/error.jpg" alt="" />
+
+</div>
+<p>and then the installer shuts down?</p>
+<p>Follow the instructions right below to fix it.</p>
+<p>If you want to know what's going on, go to the <a href="#explain">Explanation</a> section.</p>
+<h2 id="lightning-guide-just-the-quick-fix">Lightning guide – Just the quick fix</h2>
+<p><strong>Important: This is not an official solution. I don't gurantee your program will work properly installed this way. However, I have not encountered any problems after my installation, and I guess your only other option is to downgrade your OS or buy a newer version of Cubase.</strong></p>
+<p>Okay, so this might be a bit long for a &quot;quick&quot; fix, but trust me, it's really fast. I just want to make sure to take you through all the steps.</p>
+<p>If you are trying to install one of the slightly older versions of Cubase on a Mac running Yosemite or El Capitan, you will get this error.</p>
+<blockquote>
+<p>Wrong Mac OS X Version You need at least Mac OS X 10.5.0 to install this software</p>
+</blockquote>
+<p>Which is super weird, since that is Mac OS X 10.5.0 is Leopard, which is 8 years old.</p>
+<h3 id="heres-the-quick-fix">Here's the quick fix</h3>
+<ol style="list-style-type: decimal">
+<li><p>If you are installing from a CD, take the folder called <strong>&quot;Cubase X for MacOS X&quot;</strong> or something similar and <strong>copy it</strong> to your computer, e.g., your Desktop. You can do this by dragging and dropping.</p></li>
+<li><p>Open the folder. Right-click on the installer package named &quot;Cubase X&quot; and select &quot;Show Package Contents&quot;. Navigate into Contents.</p></li>
+</ol>
+<div class="figure">
+<img src="blog-posts/folder.jpg" alt="" />
+
+</div>
+<div class="figure">
+<img src="blog-posts/package-contents.jpg" alt="" />
+
+</div>
+<div class="figure">
+<img src="blog-posts/contents.jpg" alt="" />
+
+</div>
+<div class="figure">
+<img src="blog-posts/select-distribution.jpg" alt="" />
+
+</div>
+<ol start="3" style="list-style-type: decimal">
+<li>Right-click on the text file called &quot;distribution.dist&quot; and open in TextEdit or any other raw text editor.</li>
+</ol>
+<h4 id="and-heres-the-actual-fix">And here's the actual fix:</h4>
+<p>Find this section:</p>
+<pre><code>    function pm_install_check()
+    {
+      if(!(system.version.ProductVersion &gt;= &#39;10.5.0&#39;)) 
+      {
+        my.result.title = &#39;Wrong Mac OS X Version&#39;;
+        my.result.message = &#39;You need at least Mac OS X 10.5.0 to install this software&#39;;
+        my.result.type = &#39;Fatal&#39;;
+        return false;
+      }
+      return true;
+    }</code></pre>
+<p>Now remove the everything from <code>if</code> to the first closing curly bracket. Here's what you're left with:</p>
+<pre><code>     function pm_install_check()
+            {
+              return true;
+            }</code></pre>
+<p>Save and close the file, go back and open the folder again and install as usual.</p>
+<h5 id="before">Before</h5>
+<div class="figure">
+<img src="blog-posts/highlight-function.jpg" alt="" />
+
+</div>
+<h5 id="after">After</h5>
+<div class="figure">
+<img src="blog-posts/deleted.jpg" alt="" />
+
+</div>
+<h4 id="done">Done!</h4>
+<p>You are done! Be happy and creative!</p>
+<p><strong>And don't sue me if anything goes wrong. Any risk is your own.</strong></p>
+<p><a name="explain"></a></p>
+<h2 id="wait-did-i-just-remove-something-important">Wait, did I just remove something important?</h2>
+<p><strong>Short answer:</strong> Yes. But it was also broken.</p>
+<p><strong>Long answer:</strong></p>
+<p>What you just removed was a really important piece of code that makes sure you don't accidentaly install Cubase on a version of Mac OS X that is too old. Which is a good thing. However, it is only code in the <strong>installer</strong> – you didn't change anything in the actual program you installed.</p>
+<p><strong>So why was it telling me I was running an ancient version of OS X. I have the latest one!!!</strong></p>
+<p>Because a programmer got lazy/was stressed/had a brain fart/thought &quot;deal with it later&quot;, which are all basically different ways of saying the same thing when it comes to programming. Either that, or Steinberg aren't to keen on keeping their software alive forever. Probably a combination of both.</p>
+<p>That code up there is pretty readable. You can probably understand it just by looking at it. Here it is again:</p>
+<pre><code>    function pm_install_check()
+    {
+      if(!(system.version.ProductVersion &gt;= &#39;10.5.0&#39;)) 
+      {
+        my.result.title = &#39;Wrong Mac OS X Version&#39;;
+        my.result.message = &#39;You need at least Mac OS X 10.5.0 to install this software&#39;;
+        my.result.type = &#39;Fatal&#39;;
+        return false;
+      }
+      return true;
+    }</code></pre>
+<p>This piece of code is supposed to make sure your product version (your OS) is new enough. If it is, the piece of code returns &quot;true&quot;, meaning &quot;all is good in the hood!&quot;. If your OS is too old, it should tell you with an error message and the abort.</p>
+<p>Only, this piece of code fails at this pretty basic task. Why? Because it checks whether the <em>string</em> '10.5.0' is &quot;smaller or equal&quot; to whatever your product version is. '10.5.0' isn't a number. So how do you compare which string is &quot;larger&quot;? Alphabetically. (Or rather, alphanumericaly. But let's not split hairs). Basically, the code checks that your current OS version would come after '10.5.0' in an alphabetical ordering. If it comes before, it kills the installation with the error message you encuntered.</p>
+<p>This works pretty well. '10.6.x' (Snow Leopard) comes after '10.5.0' in alphabetical ordering. So does '10.9.5' (The last version of Mavericks). But then comes the problem. '10.10.x' (Yosemite) and '10.11.x' (El Capitan) come <em>before</em> '10.5.0' in the alphabet! So the code does what the programmer instructed it to and throws an error, but that is not what the code <em>should</em> do.</p>
+<p>So what did you do? You removed that whole version check. Now the installer could run on any version of OS X and not complain (not at this stage, at least). That is, of course, unsafe. But since you know you are running a newer version, you should be OK.</p>
+<hr />
+<p>Hope that helped. Email me at hjort[squirell-a]hjorthjort{dot}com if you have any quetions or anything to add. Happy hacking! And happy hit-making!</p>

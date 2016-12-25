@@ -1,0 +1,57 @@
+<h1 id="the-server-log-script">The server-log script</h1>
+<p>I figured I would want to see the traffic to my site, so I gave it a go with another script, after realizing I didn't want to memorize long commands and go to the apache log directory (which I for some reason can't <em>cd</em> in to, even with sudo) every time I wanted to check my logs.</p>
+<p>So I wrote another little script.</p>
+<p><em>Note: This only works for Ubuntu and, I think, Debian. Other systems have their logfiles in different locations.</em></p>
+<pre class="sourceCode bash"><code class="sourceCode bash">    !<span class="kw">/bin/bash</span>
+
+    <span class="co">#Get a full printout of the number of accesses made every day.</span>
+    <span class="kw">function</span><span class="fu"> day</span> <span class="kw">{</span>
+            <span class="kw">sudo</span> awk <span class="st">&#39;{print $4}&#39;</span> /var/log/apache2/access.log \
+            <span class="kw">|</span> <span class="kw">cut</span> -d: -f1 <span class="kw">|</span> <span class="kw">uniq</span> -c
+    <span class="kw">}</span>
+
+    <span class="co">#Get requests per hour on day given in format &quot;31 Mar&quot;</span>
+    <span class="kw">function</span><span class="fu"> hour</span> <span class="kw">{</span>
+            <span class="kw">sudo</span> grep <span class="st">&quot;</span><span class="ot">$1</span><span class="st">/</span><span class="ot">$2</span><span class="st">&quot;</span> /var/log/apache2/access.log \
+            <span class="kw">|</span> <span class="kw">cut</span> -d[ -f2 <span class="kw">|</span> <span class="kw">cut</span> -d] -f1 <span class="kw">|</span> <span class="kw">awk</span> -F: <span class="st">&#39;{print $2&quot;:00&quot;}&#39;</span> \
+            <span class="kw">|</span> <span class="kw">sort</span> -n <span class="kw">|</span> <span class="kw">uniq</span> -c
+    <span class="kw">}</span>
+
+    <span class="kw">if [</span> <span class="ot">$1</span> <span class="ot">==</span> <span class="st">&quot;day&quot;</span><span class="kw"> ]</span>; <span class="kw">then</span>
+            <span class="kw">day</span>
+    <span class="kw">fi</span>
+
+    <span class="kw">if [</span> <span class="ot">$1</span> <span class="ot">==</span> <span class="st">&quot;hour&quot;</span><span class="kw"> ]</span>; <span class="kw">then</span>
+            <span class="kw">hour</span> <span class="ot">$2</span> <span class="ot">$3</span>
+    <span class="kw">fi</span></code></pre>
+<h3 id="examples">Examples</h3>
+<p>Get all days</p>
+<pre><code>  $ sudo server-log day
+  346 [29/Mar/2015
+ 1019 [30/Mar/2015
+   42 [31/Mar/2015</code></pre>
+<p>Get per hour today</p>
+<pre><code>$ sudo server-log hour 30 Mar
+     34 00:00
+     94 01:00
+     94 02:00
+     65 03:00
+     78 04:00
+     58 05:00
+     54 06:00
+     28 07:00
+     68 08:00
+     69 09:00
+     15 10:00
+     29 11:00
+     25 12:00
+     25 13:00
+     37 14:00
+    161 15:00
+     66 16:00
+      4 17:00
+      3 18:00
+     11 19:00
+      1 23:00</code></pre>
+<p>That's about it. I'm sure there's a better way. Let me know if you have one. You can email me at rikard.hjort@<em>that-google-mail-address</em>.</p>
+<p><strong>Super thanks to Jacob Nicholson at Inmotion Hosting who wrote <a href="http://www.inmotionhosting.com/support/website/server-usage/view-level-of-traffic-with-apache-access-log">the blog post</a> where I got the commands I used. I'll be sure to go and understand them better when I have time. </strong></p>

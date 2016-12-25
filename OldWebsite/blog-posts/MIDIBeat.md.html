@@ -1,0 +1,37 @@
+<h1 id="what-is-midibeat">What is MIDIBeat?</h1>
+<h3 id="this-is-midibeat.">This is <a href="" title="http://midi.hjorthjort.com/">MIDIBeat</a>.</h3>
+<p>It has a shitty name. It's not a supercool, profitable iPhone app. It's not disruptive. But it does something new.</p>
+<p>This was a hack I did together with my friend <a href="" title="https://github.com/carolinekabat">Caroline</a> (the idea was hers).</p>
+<h2 id="it-is-a-midi-sampler">It is a MIDI sampler</h2>
+<p>Just like any other MIDI sampler. You associate a sound with a key, and then when you play that key on your MIDI instrument, that sound get played back. Nothing more.</p>
+<p>Except that it runs in a browser. No programs needed (apart from Google Chrome).</p>
+<p>You can use sound files from your computer. You can use files from the web, no download required. You can even get files from your Dropbox, if you'd like that.</p>
+<p>You can play MIDIBeat by clicking keys. So if you want to try it out without a MIDI device, go ahead, even though it probabl won't be as much fun.</p>
+<h2 id="what-is-the-use">What is the use?</h2>
+<p>Dunno. It seemed like a cool idea and we went for it. Maybe you want to try out playing with some samples, but don't want to fire up bulky software. Maybe you don't own any software that can do the job. The virtue of working in a browser is that it works on any device (once again, though, you'll need to use Chrome. But you can live with that, right?).</p>
+<h2 id="what-are-the-features">What are the features?</h2>
+<ul>
+<li>Fast and responsive. Everything happens directly in the browser, so no loading times when playing.</li>
+<li>Seriously. It is really fast. Like, no delays fast.</li>
+<li>It has a web interface with keys that are pressed visually as you play. I think it makes playing more fun.</li>
+<li>No restriction on number of keys you can play. The &quot;keyboard&quot; you see in the browser is no restriction. You can load samples into <em>any</em> key that your device can play.</li>
+</ul>
+<h2 id="how-well-does-it-work">How well does it work?</h2>
+<p>Well …</p>
+<p>After a good build-up, I'm sorry to disappoint. There are <em>some</em> issues.</p>
+<ol style="list-style-type: decimal">
+<li>It mostly works with MIDI devices of the piano shape, and beatpads. The reason is that we only listen for a few select types of MIDI events, and different equipment uses different event codes. We have an idea for how to fix it, by letting you register your device simply by playing it, but we haven't gotten around to fixing it.</li>
+<li>No stopping a playing file by releasing a key. Sorry, there was no time to add that, and it would be a double hassle, since that would require the same kind of problem solving as the point above.</li>
+<li>You can get any file from the web or from your computer, or Dropbox. But you can only set start and end time for the web files, because it's a bit tricky, and we were in a hurry. We figured that web files were the most likely that people would want to trim.</li>
+<li>There's not much validation going on, so if you upload something else than a valid sound file, it might not work, and there won't be any clues as t why. Bad UX.</li>
+</ol>
+<p>As always, e-mail me at hjort@[the address of this page] if you feel something else needs fixing, or if you just want to show some love. Hit us with a pull request on <a href="" title="https://github.com/hjorthjort/MIDIBeat">GitHub</a> if you want to fix any of the issues, or add an issue if you feel something else is missing.</p>
+<h2 id="the-background">The background</h2>
+<p>MIDIBeat is, as most fun-but-not-fully-functional software, the child of a hackathon. This was my first big hackathon – no less than two whole days this time. And what a hack it was. Arranged by the <a href="" title="https://www.wayoutwest.se">Way Out West</a> festival and hosted over at Spotify's office, there were a lot of cool stuff being made by a lot of fun people.</p>
+<p>Among my favorite things that got spat out by the more than twenty teams were the following, check them out:</p>
+<ul>
+<li><a href="" title="https://itunes.apple.com/app/spacesynth-augmented-reality/id1032668057">Spacesynth</a>, a mobile syntheziser for the iPhone with a preety unique sound.</li>
+<li><a href="" title="http://vingle.herokuapp.com/">Vingle</a>, like snapchat but you send song snippets!</li>
+<li>Radiomast, which unfortunately isn't live yet. Basically it's a way of broadcasting radio, but you can play music on the air without paying licensing fees. The app uses Spotify to play the songs, so anyone with Spotify Premium can listen to a broadcast and also hear the music. I hope it comes live soon.</li>
+</ul>
+<p>The rest of the hacks are <a href="https://hackoutwest15.herokuapp.com/">here</a>.</p>

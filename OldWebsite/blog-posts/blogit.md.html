@@ -1,0 +1,72 @@
+<h2 id="blogit-the-tiny-little-bash-blogger">blogit: the tiny little bash blogger</h2>
+<p>So, here's the script I put together to export my markdown blog post to this blog. It's a crude solution, but I'd lie if I said I wasn't proud anyway.</p>
+<h3 id="heres-the-code">Here's the code</h3>
+<pre class="sourceCode bash"><code class="sourceCode bash">    <span class="co">#!/bin/bash</span>
+
+    <span class="co">#Global varibles</span>
+    <span class="ot">server=</span>myusername<span class="kw">@162.248.8.165</span>
+    <span class="ot">rootpath=</span><span class="st">&#39;~/my-site&#39;</span>
+
+    <span class="co">#Set the name of the new html file</span>
+    <span class="ot">page=</span><span class="st">&quot;</span><span class="ot">$1</span><span class="st">.html&quot;</span>
+
+    <span class="co">#Generate markdown and push to server</span>
+    <span class="kw">markdown</span> <span class="st">&quot;</span><span class="ot">$1</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="kw">ssh</span> <span class="ot">$server</span> <span class="st">&quot;cat &gt; \</span>
+<span class="st">     </span><span class="ot">$rootpath</span><span class="st">/blog-posts/&#39;</span><span class="ot">$page</span><span class="st">&#39;&quot;</span>
+
+    <span class="co">#Put the name of the new files in the index over all posts.</span>
+    <span class="kw">ssh</span> <span class="ot">$server</span> <span class="st">&quot;touch </span><span class="ot">$rootpath</span><span class="st">/blog-posts/.post-index.txt\</span>
+<span class="st">    &amp;&amp; sed -i &#39;1i </span><span class="ot">$page</span><span class="st">&#39; </span><span class="ot">$rootpath</span><span class="st">/blog-posts/.post-index.txt&quot;</span></code></pre>
+<h3 id="and-heres-what-it-does">And here's what it does</h3>
+<p>The script takes as input the name of a markdown document, for example</p>
+<pre><code>$ blogit my-post.md</code></pre>
+<p>This document is then converted to html in the second paragraph. Finally, it gets pushed to the server, to a folder called blog-posts, and the name of the new html is added to the index of posts.</p>
+<p>Those global variables are configured for my special server setup. See more under &quot;The server side&quot;</p>
+<h3 id="the-php">The PHP</h3>
+<p>Here's what happens with the post when the page is loaded:</p>
+<pre class="sourceCode php"><code class="sourceCode php">    &lt;!<span class="kw">DOCTYPE</span> <span class="kw">HTML</span>&gt;
+    &lt;html&gt;
+
+    …
+
+      &lt;<span class="ot">?</span>php
+        <span class="co">//get array of filenames</span>
+        <span class="kw">$postNames</span> = <span class="fu">file</span><span class="ot">(</span><span class="st">&#39;blog-posts/.post-index.txt&#39;</span><span class="ot">);</span>
+
+        <span class="co">//iterate over array</span>
+        <span class="kw">foreach</span><span class="ot">(</span><span class="kw">$postNames</span> <span class="kw">as</span> <span class="kw">$post</span><span class="ot">)</span> {
+          <span class="fu">echo</span> <span class="st">&quot;&lt;div class=&#39;blogPost&#39;&gt;&quot;</span><span class="ot">;</span>
+          <span class="co">//remove trailing whitespace</span>
+          <span class="kw">$post</span> = <span class="fu">trim</span><span class="ot">(</span><span class="kw">$post</span><span class="ot">);</span>
+          <span class="co">//get the whole file as a string and put in newPost variable</span>
+          <span class="kw">$newPost</span> = <span class="fu">file_get_contents</span><span class="ot">(</span><span class="st">&#39;./blog-posts/&#39;</span>.<span class="st">&quot;</span><span class="kw">$post</span><span class="st">&quot;</span><span class="ot">);</span>
+          <span class="fu">echo</span> <span class="kw">$newPost</span><span class="ot">;</span>
+          <span class="fu">echo</span> <span class="st">&quot;&lt;hr&gt;&quot;</span><span class="ot">;</span>
+          <span class="fu">echo</span> <span class="st">&quot;&lt;/div&gt;&quot;</span><span class="ot">;</span>
+        }
+      <span class="kw">?&gt;</span>
+
+    …
+
+    &lt;/html&gt;</code></pre>
+<p>The PHP script runs through all the file-names stored in the index and creates posts out of them.</p>
+<h3 id="the-server-side">The server side</h3>
+<p>There's some trickery and static code living on the server side, unfortunately. First, the /var/www/html that Apache uses to find a home folder has been rerouted.</p>
+<pre><code>$ ls /var/www/html lrwxrwxrwx 1 root 20 Mar 30 06:18 /var/www/html \
+-&gt; /home/hjort/my-site//</code></pre>
+<p>As you can see, it now points to a certain folder in my home folder, with the following structure.</p>
+<pre><code>├── blog-posts
+│   ├── my-post.md.html
+│   ├── .post-index.txt</code></pre>
+<p>The bash script ha a global variable pointing to the same folder as the variable $rootpath in the bash script.</p>
+<h3 id="missing-features">Missing features</h3>
+<p>Suffice to say, a lot of important functionality is missing in blogit. Here's are some things I want to fix in the future:</p>
+<ul>
+<li>Setting the global variables, so that it's easy to change what destination and even server without manually changing the code.</li>
+<li>Removing published posts.</li>
+<li>Rearranging posts.</li>
+<li>Quickly undoing latest push.</li>
+<li>Editing markdown directly on the server, and then automatically update the posts accordingly.</li>
+</ul>
+<h3 id="help">Help!</h3>
+<p>If you looked at this and went &quot;Yuck! This code is garbage!&quot; – please let me know! Give me a shout on <a href="https://github.com/hjorthjort">GitHub</a></p>

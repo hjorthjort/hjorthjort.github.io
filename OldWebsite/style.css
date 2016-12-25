@@ -1,0 +1,88 @@
+body {
+margin: auto;
+}
+
+.logo {
+  margin-top: 40px;
+  max-height: 500px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4em;
+  font-variant: small-caps;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recent {
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40pt;
+  max-width: 70%;
+  color: #777777;
+}
+
+.recent a:link, a:visited {
+  text-decoration: none;
+  color: #666666;
+}
+
+.recent a:hover {
+  color: #000000;
+}
+
+.recent h1 {
+  font-size: 16pt;
+}
+
+.blogPost {
+  max-width: 50%;
+  min-width: 400px;
+  font-family: 'Alice', serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150pt;
+  line-height: 150%;
+}
+
+.blogPost img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date {
+  font-family: "Helvetcia Neue", Arial, sans-serif;
+  font-size: 10pt;
+  text-align: right;
+  color: #aaaaaa;
+}
+
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode, table.sourceCode pre
+   { margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; }
+td.lineNumbers { border-right: 1px solid #AAAAAA; text-align: right; color: #AAAAAA; padding-right: 5px; padding-left: 5px; }
+code.sourceCode, pre, table.sourceCode { background-color: #09000A; color: #BDAE9D; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode span.kw { color: #43A8ED; font-weight: bold; }
+code.sourceCode span.dt { text-decoration: underline; }
+code.sourceCode span.dv { color: #44AA43; }
+code.sourceCode span.bn { color: #44AA43; }
+code.sourceCode span.fl { color: #44AA43; }
+code.sourceCode span.ch { color: #049B0A; }
+code.sourceCode span.st { color: #049B0A; }
+code.sourceCode span.co { color: #0066FF; font-style: italic; }
+code.sourceCode span.ot { }
+code.sourceCode span.al { color: yellow; font-weight: bold; }
+code.sourceCode span.fu { color: #FF9358; font-weight: bold; }
+code.sourceCode span.re { }
+code.sourceCode span.er { color: yellow; font-weight: bold; }

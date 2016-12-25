@@ -1,0 +1,22 @@
+<h2 id="tiny-update">Tiny update</h2>
+<p>I changed the if-statements at the end of the script below to</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">        <span class="kw">if [</span> <span class="ot">$1</span> <span class="ot">==</span> <span class="st">&quot;day&quot;</span><span class="kw"> ]</span>; <span class="kw">then</span>
+            <span class="kw">day</span>
+    <span class="kw">elif [</span> <span class="ot">$1</span> <span class="ot">==</span> <span class="st">&quot;hour&quot;</span><span class="kw"> ]</span>; <span class="kw">then</span>
+
+            <span class="kw">if [</span> <span class="ot">$2</span> <span class="ot">==</span> <span class="st">&quot;today&quot;</span><span class="kw"> ]</span>; <span class="kw">then</span>
+                    <span class="kw">hour</span> <span class="kw">`date</span> <span class="kw">|</span> <span class="kw">awk</span> {<span class="st">&#39;print $3 &quot; &quot; $2&#39;</span>}<span class="kw">`</span>
+            <span class="kw">else</span>    <span class="kw">hour</span> <span class="ot">$2</span> <span class="ot">$3</span>
+            <span class="kw">fi</span>
+    <span class="kw">fi</span></code></pre>
+<p>And now I can do this</p>
+<pre><code>$ sudo server-log hour today
+      3 00:00
+      4 01:00
+      4 03:00
+      9 04:00
+      2 05:00
+      1 06:00</code></pre>
+<p>So now I'm happy, after a good days work (other work than this, that is).</p>
+<p>Thinking about getting to work on the PHP of the site. Get som dates and stuff in here, so it looks like a real blog. Oh well.</p>
+<p><strong>G'night.</strong></p>
