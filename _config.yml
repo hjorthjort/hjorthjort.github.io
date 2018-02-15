@@ -7,7 +7,7 @@
 
 # Site settings
 title: hjorthjort
-email: hjort@hjorthjort.com
+email: hjort@hjorthjort.xyz
 description: > # this means to ignore newlines until "baseurl:"
     The catch-all environment for the stories of hjorthjort. Please enjoy responsibly to make up for the fact that they weren't written in such a fashion.
 baseurl: "" # the subpath of your site, e.g. /blog
