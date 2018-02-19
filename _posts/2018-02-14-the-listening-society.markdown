@@ -6,6 +6,8 @@ date: "2018-02-14 17:44:27 -0900"
 
 ![Cover of The Listening Society by Hanzi Freinacht]({{ "/assets/the-listening-society.jpg" }})
 
+I’ve been reading [Metamoderna](http://metamoderna.org/?lang=en) for a while now with great interest, and finally got around to reading the book, which has been out since September 2017.
+
 I'll be blunt: This book may change your life, and it may go down in history as a great and accessible piece of (pop-)philosophy. However, I sense there are some *serious* pitfalls to reading and applying it. Looking around the web at the comments of others, it seems my concerns are well founded. I encourage you to and read it (it is quite short and pleasant), but please take some of my concerns with you as you do.
 
 I recommend this book to anyone who's just sliiightly uncomfortable with postmodernism, identity politics or super-rational sciencism. This book offers a wider perspective, that can both include and extend your perspective.
