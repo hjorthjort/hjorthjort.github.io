@@ -22,3 +22,4 @@ markdown: kramdown
 assets:
     sources:
         - assets
+        - assets/img
