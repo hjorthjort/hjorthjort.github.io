@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Listening Society: A critical review"
-date: "2018-01-14 17:44:27 -0900"
+date: "2018-02-14 17:44:27 -0900"
 ---
 
 ![Cover of The Listening Society by Hanzi Freinacht]({{ "/assets/the-listening-society.jpg" }})
