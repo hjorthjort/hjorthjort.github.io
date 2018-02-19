@@ -4,7 +4,7 @@ title: "The Listening Society: A critical review"
 date: "2018-01-14 17:44:27 -0900"
 ---
 
-![Cover of The Listening Society by Hanzi Freinacht]({{ site.url }}/assets/the-listening-society.jpg){: .center-image }
+![Cover of The Listening Society by Hanzi Freinacht]({{ "/assets/the-listening-society.jpg" }})
 
 I'll be blunt: This book may change your life, and it may go down in history as a great and accessible piece of (pop-)philosophy. However, I sense there are some *serious* pitfalls to reading and applying it. Looking around the web at the comments of others, it seems my concerns are well founded. I encourage you to go out and read it (it is quite short and challenging yet pleasant read), but please take some of my concerns with you as you do.
 

@@ -17,3 +17,8 @@ github_username:  hjorthjort
 
 # Build settings
 markdown: kramdown
+
+# Assets
+assets:
+    sources:
+        - assets
