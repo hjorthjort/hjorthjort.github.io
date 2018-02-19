@@ -8,6 +8,8 @@ date: "2018-02-14 17:44:27 -0900"
 
 I'll be blunt: This book may change your life, and it may go down in history as a great and accessible piece of (pop-)philosophy. However, I sense there are some *serious* pitfalls to reading and applying it. Looking around the web at the comments of others, it seems my concerns are well founded. I encourage you to and read it (it is quite short and pleasant), but please take some of my concerns with you as you do.
 
+I recommend this book to anyone who's just sliiightly uncomfortable with postmodernism, identity politics or super-rational sciencism. This book offers a wider perspective, that can both include and extend your perspective.
+
 But before we can critique, we need to get a grip on what we are actually talking about here: Metamodernism.
 
 What is Metamodernism, and why should you care?
