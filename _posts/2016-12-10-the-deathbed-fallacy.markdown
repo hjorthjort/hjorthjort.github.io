@@ -1,138 +1,92 @@
 ---
 layout: post
 title: "The Deathbed Fallacy"
-date: "2016-12-10 17:44:27 +0100"
+date: "2018-02-21 12:44:27 +0100"
 ---
 
-This is one of the topics that have bothered me for years. So now, in a spurt
-of explicitness about my ideas instigated by reading some sweet, sweet [Wait But
-Why][wbw][^1] and drinking a glass or two of bourbon. It is something I call
-the Deathbed Fallacy.
 
-# What is the Deathbed Fallacy
+This topic has bothered me for years. So now, in a moment of inspiration instigated by [Wait But Why][wbw][^1] and drinking a glass or two of bourbon, I want to hash it out. It is something I call *the Deathbed Fallacy*.
 
-A common truism is that people on their deathbeds regret not spending more
-time of their life with their family, traveled more, etc. It comes up in
-discussions on personal growth, religion, spirituality and happiness. A [viral
-post][deathbed] on this theme says that the following is what people regret
-most on their deathbed:
+![“Lord Byron on his Death-bed” by Joseph Denis Odevaere]( {{ "/assets/img/Lord_Byron_deathbed.jpg" }} )
 
-1. I wish I’d had the courage to live a life true to myself, not the life others expected of me.
+# What is the Deathbed Fallacy?
+
+People on their deathbeds regret not spending more time of their life with their family, traveling more, worrying less, etc. I've heard this truism echoed by [growth gurus](http://www.thelawofattraction.com/the-top-5-regrets-people-reveal-they-have-on-their-deathbed/) and spiritualists. It [is](https://www.huffingtonpost.com/bronnie-ware/top-5-regrets-of-the-dyin_b_1220965.html) [amplified](https://www.theguardian.com/lifeandstyle/2012/feb/01/top-five-regrets-of-the-dying) [by](http://www.independent.co.uk/life-style/palliative-nurse-shares-the-most-common-regrets-of-her-patients-a6821061.html) [newspapers](http://www.businessinsider.com/5-things-people-regret-on-their-deathbed-2013-12). It comes up at dinner discussions. The origin the list of regrets is the palliative nurse [Bronnie Ware][deathbed] who listed the following most common regrets:
+
+1. "I wish I’d had the courage to live a life true to myself, not the life others expected of me.
 2. I wish I didn’t work so hard.
 3. I wish I’d had the courage to express my feelings.
 4. I wish I had stayed in touch with my friends.
-5. I wish that I had let myself be happier.
+5. I wish that I had let myself be happier."
 
-All well and good. A bit vauge, but seems like fine advice. So what is the
+All well and good. A bit vague, but seems like solid advice. So what is the
 problem?
 
 # The Fallacy
 
-The fallacy is to assume that whoever you are on your deathbed knows how you
-should live your life. If you consider yourself over a lifetime not as a
-single person, but a spectrum of many people with different views and
-priorities, you shouldn't think that the last person on that spectrum is super
-wise and all-knowing. There are two reasons to doubt that the deathbed is a
-good guide for leading a good life.
+The fallacy is to assume that whoever you are on your deathbed knows how you should live your life right now. They wish they would have done things differently, meaning, they think *you* should do something differently, *right now*. You should consider yourself over a lifetime not as a single person, but a line of many people with different views and priorities. Now, do you think the last person in that line is wise and all-knowing? There are three reasons to doubt that deathbed-you is a competent guide for your life.
+
+The deathbed you is not a reliable advisor. Here's why.
 
 ## Reason 1: It is not a representative state
 
 The deathbed is not a representative state of life, and what you want when you
-are there might not have much correlation with what would have been the most
-happy, satisfactory and/or meaningful life you could have led.
+are there might not have much correlation with what would have been the happiest, most satisfactory and/or meaningful life you could have led.
 
 The deathbed you is very special in a few ways:
 
 * They don't have a future at all. They are about to die, and nothing they
-  think has bearing on the future. All they have is the present and memories.
-* They think they know their past selves (such as you) very well, but probably
+  think has a bearing on the future. All they have is the present and memories.
+* They think they know their past selves (such as you) very well but probably
   don't. More on that soon.
 * Like all your temporal selves, they are locked in a time, place and life
   situation that does not necessarily correspond to yours.
-* Most people now on their deathbeds were my age long ago, and probably held
-  different values and core ideas. Do you agree with your grandparents'
-  philosophy of life? Do you think you should?
+
+We should also expect recency bias to play a significant role. We should assume that the people expressing these regrets are in general quite old. Their memories of working a lot should be dominated by the late stages of their careers. The lost friends should be those they miss at old age, not necessarily the people you hung out with in your twenties that you've forgotten almost entirely by the time you're 60.
 
 ## Reason 2: You don't know your past selves, but you think you do
 
-The older I get, the more I think I understand myself as a teenager. As I learn more about myself, I seem to grasp my motivations and my core ides ever more fully. I think of past me as [nothing but a slightly less grown up version of me][smbc], but still overestimate my knowledge and capabilities of that time so that they are closer to my current self. 
+The older I get, the more I think I understand myself as a teenager. As I learn more about myself, I seem to grasp my motivations and my core ides ever more fully. So I tend to think of past me as [nothing but a slightly less grown-up, more athletic version of myself][smbc]. I think I've been consistent. And when I made the "wrong" choices, it's either because I was (am) stupid, or because I didn't have the right information.
 
-Nevertheless, I often find something I wrote in high school, or remember something I
-did, which reminds me that the idea I generally hold of my past self as stupid
-and wanting the wrong things is ridiculous. I was smart back then too – I just
-had a different outlook, and different priorites. I did things I today think
-are stupid, but which, if I were to go back and relive my experiencesof that
-time, would probably do again. Case in point: for a few years, when I was 14 to 15 I would guess, a strong priority in my life was fitting in. And I don't mean beacuse I thought that was a great end goal, but beacuse that would give me the most utility. My core ideas were the same as now, in many ways,
-and I valued independence, but I realized that I *sucked* in many ways and that people in
-general weren't very fond of me. I also realized that no matter how
-enlightened or clever I got, my overall happiness depended a lot on how other
-people saw me, and what relationship we developed. So I became obsessed with
-other people's opinion of me. 
+But every now and then I find something I wrote or remember a decision I made in high school, which reminds me that my assumptions are all wrong. I was just as smart in high school, I had a lot of information (more than I do now because I've forgotten the details). The decisions I made were actually the right ones, and what I think now is wrong, because present me is overly simplistic about past me.
 
-Today, I probably care too much about what others think. I often blame
-teenage me for making me so aware of other people's judgement – why can't I
-just focus on computer science and meditation all the time with a select few
-people I love? – but honestly, I realize he did what is best for us.
+Case in point: for a few years, when I was 14 to 15, a big priority in my life was fitting in, and not be too open about my own ideas and feelings. This goes entirely against both my current ideals and the Deathbed List. So young me would have benefitted from some guidance from present me, right?
 
-In much the same way, I am now highly career foucesd. I want to learn a shit lot,
-I want good jobs, I want money. I am in a place where deathbed me would
-probably scowl and think of a lost boy with twisted priorities. But I am doing
-this for us. I don't care about having a career or money, excpet for as
-enablers of a good life, a life of freedom, a life in a great place with great
-people. I believe that hard work can form a life I would enjoy more than the
-one I'd get if I just focused on being happy, because even my idea of
-happiness is probably skewed in a lot of ways. I'm doing the best I can based
-on what I know. And that doesn't come free. I happen to believe that a lot of the
-people I would love the hang out with are people in places it is actually hard
-to get to. [The brick walls are there for a reason][brick-walls], and I want
-to spend as much of my time as possible with the people on the other side of
-it.
+Wrong. When I find a diary from that time or talk to a friend from those days about it, it turns out I was probably doing the right thing. My core values were the same as now, only somewhat more 2-dimensional. I valued independence and authenticity back then, too. But what younger me realized, that present me forgot, was that I *sucked* as a person in a lot of ways and that people, in general, weren't very fond of me. I also realized that no matter how enlightened or authentic I got, my overall happiness depended quite a lot on how other people saw me, and what relationship we developed. 
 
-I am beginning to acknowledge that where I am at is the result of serious
-work (and serious play), and that unless I think this is the end of the line
-for me, I should probably try to keep going. I should balance that with
-enjoying the ride, trying to be happy and find the work I find meaningful
-enough to want to do a lot, and spending time with people I love. But I should
-also acknowledge that I need to develop some mastery of skills and general
-esteem, as those are awesome amplifiers for any life.
+Today, I probably care too much about what others think. I often blame teenage me for making me so aware of other people's judgment – why can't I just focus on cool work and meditation all the time with a select few people I love? But that is just present me shaming past me for dragging himself through an ordeal which benefitted us both. He handled the most pressing matter and passed on the work of undoing the side-effects to me. I just forgot about it and got stuck in regret.
 
-I am completely ignorant about teenage me, even though I know more about him
-than anyone. Why do I have so much respect for deathbed me? And why should I
-care what he thinks?
+In much the same way, I am now highly career focused. I want to learn a shit lot, I want good jobs, I want money, I want to influence. Deathbed-me would probably scowl and think I've gotten my priorities all twisted up. But I am doing this for us. I don't care about having a career or money, except for as enablers of a good life, a life of freedom, a life in a great city with great people. I believe that hard work can take me places I will enjoy more than where I'd end up if I just focused on being happy in the moment, following the Deathbed List. I'm doing the best I can based on what I know. And that doesn't come free, I have to make trade-offs. I happen to believe that a lot of the people I would love the hang out with are people in places it is actually hard to get to. [The brick walls are there for a reason][brick-walls], and I want to spend as much of my time as possible with the people on the other side of it, so I need to let go of some stuff on this side for a while. Deathbed-me is gonna be pissed, but he's just a spoiled ingrate. He's the kid I'm raising, not the other way around.
+
+## Reason 3: Most people that die today lived in a world very different to yours
+
+Maybe you think the key to happiness is universal. That it doesn't change as the world does. But keep in mind that for all the things on the list, the predicament has changed. Let's take number 1 on the list as an example:
+
+> “I wish I’d had the courage to live a life true to myself, not the life others expected of me."
+
+Think about someone you know who lived to be 70 years, 80 years or older. It may be someone alive or no longer with you. They correspond best to the average person in palliative care. Think about the stories they told you about growing up, about working life, about their values. Wouldn't you agree that it was likely *a lot* harder for them to live outside the expectations of others? Have we not come a long way when it comes to people being free to shape their own lives? Is it possible, maybe, just maybe, that some people are a bit too good at being "authentic," to the detriment of themselves and their surroundings, by being a bit self-obsessed and not paying enough attention to duty and the common good?
+
+To someone in their 20s, there is, like, a 50-year delay in the data here. The challenges facing my generation are not the same as that of my grandparents. For example, do you 20-somethings today are better or worse at staying in contact with friends? My grandparents might have had trouble staying in touch, but weren't stuck on social media. Maybe they were stuck in a cubicle or a rigid moral structure. Maybe they were stuck hiding their sexuality from their friends and families. Maybe they were homeowners by my age, settled down with a family. How similar do you think our lives are?
 
 # Who is most guilty of this fallacy?
 
-In my experience, hedonists who "figure out" what life is really about seem to be pretty far
-up in Maslow's pyramid of needs, and have a lot of focus on the higher parts,
-and they tend to be smart people that have figured out some way to make a
-decent living that allows them a lot of time to think and personal freedom to
-explore experiences. I'd say that a lot of these people are, or have been,
-workaholics. And that has taken them to a place where they now have the luxury
-of thinking about The Real Important Things In Life™, casting judgement on
-their former selves for not seeing clearly when a precondition for them to be
-able to think clearly in the first place is the work they already put in.
+In my experience, those who "figure out" what life is really about seem to be pretty far
+up in Maslow's pyramid of needs, and focus a lot on the higher-order needs. They tend to be smart people that have figured out some way to make a decent living that allows them a lot of time to think, and personal freedom to explore experiences. I'd say that a lot of these people are, or have been, workaholics. And now they have the luxury of thinking about The Real Important Things In Life™, casting judgment on their former selves for not seeing when a precondition for them to be able to figure themselves out in the first place is the work they already put in.
 
-In short, people who already have a lot seem to assume that if they never even
-strived for it, they would be happier. But that striving is often an enabler
-of the life they now think they want. It is what gave them their family, ther
-network, their passions.
+Conversely, I've met quite a few people who are very concerned about living an authentic, carefree life without having a lot of other things figured out first. They don't have a stable income (or at least the contacts and knowledge required to make some money when they need to), good relationships, and a good grasp of their material priorities. These are struggling artist, miserable drifters or just pretty aimless people with romantic dreams that leave them disappointed with the real world.
 
-# Conclusion
+In short, people who already have a lot seem to assume that if they never even strived for it, they would be happier. But that striving is often an enabler of the life they now think they want. It is what gave them their family, their network, their passions.
 
-Why are smart people so amazingly eager to assume that they know what their
-former selves *should* have done? And I don't mean single, life changing
-decisons here, for which they know the turnout, but
-general, large scale attitudes on how to live life.
+# So what's the alternative?
 
-Please, don't have to much respect for deathbed you. They are in a weird place,
-where the future is suddenly completely unimportant and the past is
-everything. Is that who you want to be dictating your life?
+The Deathbed List is in a lot of ways sound advice (if a bit abstract). It aligns well with current happiness research. But it kind of shifts the blame onto you, for caring about other people, for working hard. Heck, it might be a good idea to be miserable for a few years to build up some knowledge or capital. At least, that's what a lot of other solid life advice is telling us.
 
-*This post might be a work in progress. I hope I can clarify my ideas further,
-but I want to put them out there as the draft they are.*
+What I want you to take away is this: Don't bother with the Deathbed Fallacy. Look at [happiness research](https://en.wikipedia.org/wiki/Grant_Study), which tells you a stable income, focus on relationships and experiences rather than stuff, practicing acceptance, and small things like short commute times make you happier. [Get some books on the topic](https://www.happinessresearchinstitute.com/books). Reflect on your own past happiness right now, and consider what you should do become more fulfilled both today and for the rest of your time on Earth. Going to work most days and dropping a few friends you don't have time for may actually be sensible right now if you are in the middle of your career, doing something meaningful. Don't worry about what some old version of yourself will think of you but focus instead on making sure they are happy and well off, even if they are total ingrates.
+
+*I published this in late 2016 but realized I never finished editing it. This version is extensively reworked.*
 
 [wbw]: http://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html
 [deathbed]: http://bronnieware.com/regrets-of-the-dying/
 [smbc]: http://www.smbc-comics.com/?id=3474
 [brick-walls]: https://www.youtube.com/watch?v=ji5_MqicxSo&ab_channel=CarnegieMellonUniversity
-[^1]: What I love about that blog is partly that it always entices me to think about great concepts, but also that it seems nothing in there is really new to me, but rather it is things I have formulated at some point, but either forgotten or not been able to express so succinctly.
+[^1]: What I love about that blog is partly that it always entices me to think about complex concepts, but also that it seems nothing in there is really new to me, but instead it is things I have formulated at some point, but either forgotten or not been able to express so succinctly.
