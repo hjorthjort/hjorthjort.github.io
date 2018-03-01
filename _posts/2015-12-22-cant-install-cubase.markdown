@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can't install Cubase on Mac running Yosemite or El Capitan? Here's how you fix it.
+title: Can't install Cubase on a new Mac? Here's how you fix it.
 date: 2015-12-22 22:04:00 +0100
 categories: old-site
 ---
@@ -96,7 +96,7 @@ Save and close the file. Then, go into to your copy of the original folder, doub
 
 #### Done!
 
-You are done! Be happy and creative!
+You are done! Be happy and creative! Consider [buying me a coffee]({{ site.url  }}/donate).
 
 **And don't sue me if anything goes wrong. Any risk is your own.**
 
