@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <meta itemprop="publisher" content="hjorthjort" itemscope itemtype="http://schema.org/Person">
+  <meta itemprop="publisher" content="hjorthjort" itemscope itemtype="http://schema.org/Organization">
 
   <meta itemprop="dateModified" content="{% if page.modified %}{{ page.modified | date: "%b %-d, %Y" }}{% else %}{{ page.date | date: "%b %-d, %Y" }}{% endif %}">
 
@@ -17,7 +17,7 @@ layout: default
     {% if page.image %}
       <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject"><img src="{{ page.image.url }}" alt="{{ page.image.description }}">
       <meta itemprop="representativeOfPage" content="true">
-      <meta itemprop="url" content="{{ page.image.url }}">
+      <meta itemprop="url" content="{{site.url}}{{ page.image.url }}">
       <div class="caption" itemprop="caption">{{ page.image.caption }}</div></span>
     {% endif %}
     {{ content }}
