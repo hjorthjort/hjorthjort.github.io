@@ -28,4 +28,4 @@ Chances are you've seen a [HappyOrNot terminal](https://www.newyorker.com/magazi
 Here's what I propose (all you unicorn social media companies out there, take heed): After clicking on content, whether it be a long post, a news article, a video or a tweet thread, show me a HappyOrNot terminal. No, this isn't another chance for you to broadcast my like or dislike to the world. This is you collecting data on me (I keep giving it to you for free, don't I), and it stays between us. Ask me: "How was your experience?" Take my signal, and do what you want with it. I hope you will gear me towards content I'm glad for, which includes what I disagree with. And hey, you are making me a little more mindful as a bonus. All in all, my level of enjoyment with your platform is bound to go up.
 
 ![A suggestion for how the feedback mechanism could work, with three emojis with different expressions superimposed on a darkened version of an article image on Feacebook]({{ "/assets/img/Facebook-happyornot.jpg" }})
-<div class="caption">Time well spent?</div>
+{:.caption}Time well spent?
