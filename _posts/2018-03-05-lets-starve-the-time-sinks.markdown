@@ -2,9 +2,11 @@
 layout: post
 title: "Let's Starve the Time Sinks"
 date: "2018-03-04 01:10:00 -0900"
----
 
-![Facebook reaction buttons]({{ "/assets/img/Facebook-reactions.png" }})
+image: "/assets/img/Facebook-reactions.png"
+imagecaption: "A different perspective on reacting."
+imagedescription: "Facebook reaction buttons"
+---
 
 Smartphones have been called ["slot machines in our pockets"](http://www.spiegel.de/international/zeitgeist/smartphone-addiction-is-part-of-the-design-a-1104237.html). The [Time Well Spent movement](http://humanetech.com/) is challenging the media giants' focus on hijacking our attention. Outrage is growing over issues such as "fake news" and other artificially viral content, to the extent that major advertising players are [pushing back with their wallets](http://www.foodingredientsfirst.com/news/unilevers-advertising-ultimatum-to-facebook-and-google-clean-up-toxic-content.html).
 
