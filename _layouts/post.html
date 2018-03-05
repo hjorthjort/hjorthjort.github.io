@@ -11,8 +11,8 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {% if page.image %}
-        <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject"><meta itemprop="reresentativeOfPage" content="true"><img src="{{ page.image }}">
-            <div class="caption" itemprop="caption">{{ page.imagecaption }}</div></span>
+    <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject"><meta itemprop="reresentativeOfPage" content="true"><img src="{{ page.image.url }}" alt="{{ page.image.description }}">
+            <div class="caption" itemprop="caption">{{ page.image.caption }}</div></span>
     {% endif %}
     {{ content }}
   </div>
