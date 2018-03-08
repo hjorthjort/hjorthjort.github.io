@@ -9,14 +9,17 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+          <div class="splash">
+          {% if post.image or post.thumbnail %}
+          <div class="thumbnail" style="background-image: url({% if post.thumbnail %}{{ post.thumbnail.url }}{% else %}{{ post.image.url }}{% endif %});"></div>
+          {% endif %}
+          <div>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          {% if post.image %}
-            <div class="thumbnail" style="background-image: url({{ post.image.url }});"></div>
-          {% endif %}
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        </div>
       </li>
     {% endfor %}
   </ul>
