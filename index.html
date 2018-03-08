@@ -4,15 +4,11 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
           <div class="splash">
-          {% if post.image or post.thumbnail %}
-          <div class="thumbnail" style="background-image: url({% if post.thumbnail %}{{ post.thumbnail.url }}{% else %}{{ post.image.url }}{% endif %});"></div>
-          {% endif %}
+          <div class="thumbnail" style="background-image: url({% if post.thumbnail %}{{ post.thumbnail.url }}{% elsif post.image %}{{ post.image.url }}{% endif %});"></div>
           <div>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
