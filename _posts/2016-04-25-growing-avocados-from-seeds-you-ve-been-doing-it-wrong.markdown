@@ -1,18 +1,8 @@
 ---
 layout: post
-title: "Growing avocados from seeds – you're doing it wrong"
+title: "Growing avocados from seeds without using tootphicks"
 date: "2016-04-25 09:41:41 +0200"
 ---
-
-**Quick update: I was stupid enough to start this experiment shortly before I
-moved to a new city, and I wasn't up for bringing seeds with me. However,
-preliminary results pointed toward the standard method, not my own. One of the
-standard method ones looked promising, having grown a large root, and one more
-was opening. The submerged ones didn't show much sign of progress overall. It
-might be of some interest that they were all exposed to daytime sunlight,
-whereas before I have mostly tried to grow them in winter, when there is far
-less sun in Sweden – but if we bring season into the mix we introduce a range
-of other possible explanations. Overall, the experiment was a failure. I'd be happy to sww if someone can reproduce the results**
 
 ![Avocado tree][tree-img]
 
@@ -145,6 +135,16 @@ Avocado seeds are named alphabetically in the order they are retrieved. Naming c
 | Gang of Four | 2016-05-16 | Submerged | Peel came off easily | | | | |
 | Håkan Hellström | 2016-05-23 | Toothpicked | Peel came off easily | | | N/A | | 
 
+
+**Quick update: I was stupid enough to start this experiment shortly before I
+moved to a new city, and I wasn't up for bringing seeds with me. However,
+preliminary results pointed toward the standard method, not my own. One of the
+standard method ones looked promising, having grown a large root, and one more
+was opening. The submerged ones didn't show much sign of progress overall. It
+might be of some interest that they were all exposed to daytime sunlight,
+whereas before I have mostly tried to grow them in winter, when there is far
+less sun in Sweden – but if we bring season into the mix we introduce a range
+of other possible explanations. Overall, the experiment was a failure. I'd be happy to see if someone can reproduce the results**
 
 [^science]: Yay, science!
 
