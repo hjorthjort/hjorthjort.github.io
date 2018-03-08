@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Facebook, YouTube and New Sites Are Collecting the Wrong Data. Here's What They Should Learn From a Finnish Startup."
+title: "Facebook, YouTube and News Sites Are Collecting the Wrong Data. Here's What They Should Learn From a Finnish Startup."
 date: "2018-03-04 01:10:00 -0900"
 
 image:
