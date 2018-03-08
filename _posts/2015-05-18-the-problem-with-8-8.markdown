@@ -3,6 +3,10 @@ layout: post
 title: The problem with 8^8 (or "Just Checking Your Math On That")
 date: 2015-05-18 06:12:00 +0100
 categories: old-posts
+
+thumbnail:
+    url: "/assets/eight-eight-footer.png"
+
 ---
 
 *Disclaimer: I feel pretty confident about the numbers but I am by no means a

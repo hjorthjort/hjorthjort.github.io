@@ -3,6 +3,9 @@ layout: post
 title: Hackathon!
 date: 2015-05-14 17:31:00 +0100
 categories: old-posts
+
+thumbnail:
+    url: http://i.imgur.com/t0XHtgJ.gif
 ---
 
 TL;DR

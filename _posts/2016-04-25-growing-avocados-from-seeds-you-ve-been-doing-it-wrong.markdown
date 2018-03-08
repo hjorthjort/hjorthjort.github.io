@@ -2,9 +2,11 @@
 layout: post
 title: "Growing avocados from seeds without using tootphicks"
 date: "2016-04-25 09:41:41 +0200"
----
 
-![Avocado tree][tree-img]
+image:
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Avocado_Seedling.jpg"
+    description: "Avocado tree"
+---
 
 I learned to love avocado when I moved in with my girlfriend around 2012. I'm
 not an avid lover, like so many others, and I don't by them too often, but at
@@ -148,7 +150,6 @@ of other possible explanations. Overall, the experiment was a failure. I'd be ha
 
 [^science]: Yay, science!
 
-[tree-img]: https://upload.wikimedia.org/wikipedia/commons/2/2e/Avocado_Seedling.jpg
 [every]: http://inhabitat.com/how-to-grow-an-avocado-tree-from-an-avocado-pit/
 [source]: http://www.wikihow.com/Plant-an-Avocado-Tree
 [i]: https://www.youtube.com/watch?v=CTR1oZimeAM

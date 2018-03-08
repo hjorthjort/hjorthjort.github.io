@@ -3,6 +3,9 @@ layout: post
 title: Can't install Cubase on a new Mac? Here's how you fix it.
 date: 2015-12-22 22:04:00 +0100
 categories: old-site
+
+thumbnail:
+    url: "/assets/cubase/error.jpg"
 ---
 
 **Important: A few month after this post came up, Steinberg put out a tool called "Steinberg Application Installer Tool" that should solve the problem this post addresses. I suggest you try to use that, even if "Installer Tools" in general might be the most annoying thing you can have on your computer after virus-inducing toolbars. You can get it [here][tool].**

@@ -2,9 +2,12 @@
 layout: post
 title: "The Listening Society: A critical review"
 date: "2018-02-14 17:44:27 -0900"
+
+image:
+    url: "/assets/the-listening-society.jpg"
+    description: "Cover of The Listening Society by Hanzi Freinacht"
 ---
 
-![Cover of The Listening Society by Hanzi Freinacht]({{ "/assets/the-listening-society.jpg" }})
 
 I’ve been reading [Metamoderna](http://metamoderna.org/?lang=en) for a while now with great interest, and finally got around to reading the book, which has been out since September 2017.
 

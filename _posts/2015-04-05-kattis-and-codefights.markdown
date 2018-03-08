@@ -3,6 +3,9 @@ layout: post
 title: Kattis and Code Fights
 date: 2015-04-05 13:57:00 +0100
 categories: old-site
+
+thumbnail:
+    url: "/assets/bug-starship.jpg"
 ---
 
 What is Code Fights

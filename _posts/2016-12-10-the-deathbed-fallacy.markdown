@@ -2,12 +2,16 @@
 layout: post
 title: "The Deathbed Fallacy"
 date: "2018-02-21 12:44:27 +0100"
+
+image:
+    url: "/assets/img/Lord_Byron_deathbed.jpg"
+    description: "“Lord Byron on his Death-bed” by Joseph Denis Odevaere"
+    caption: "“Lord Byron on his Death-bed” by Joseph Denis Odevaere"
 ---
 
 
 This topic has bothered me for years. So now, in a moment of inspiration instigated by [Wait But Why][wbw][^1] and drinking a glass or two of bourbon, I want to hash it out. It is something I call *the Deathbed Fallacy*.
 
-![“Lord Byron on his Death-bed” by Joseph Denis Odevaere]( {{ "/assets/img/Lord_Byron_deathbed.jpg" }} )
 
 # What is the Deathbed Fallacy?
 

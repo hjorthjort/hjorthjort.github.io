@@ -2,6 +2,9 @@
 layout: post
 title: "How to get into an onsen with tattoos"
 date: "2018-02-18 19:13:00 -0900"
+
+thumbnail:
+    url: "/assets/img/tattoo-full-body.jpg"
 ---
 
 An onsen（温泉）is a hot bath whose water is heated by geothermal energy from the very volcanically active crust of Japan. An onsen usually consists of a spa-like environment, sometimes with several special pools (bubble pools, cold pools), and one or two regular hot pools, often 44-55 degrees Celsius, that can be indoor or outdoor.

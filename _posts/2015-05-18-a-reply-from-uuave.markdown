@@ -3,6 +3,9 @@ layout: post
 title: A reply from uuave
 date: 2015-05-18 06:09:00 +0100
 categories: old-site
+
+thumbnail:
+    url: "http://media1.giphy.com/media/i58xhIseqtRpC/giphy.gif"
 ---
 
 # A reply from uuave
