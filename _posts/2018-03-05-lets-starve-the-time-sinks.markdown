@@ -9,6 +9,8 @@ image:
     description: "Facebook reaction buttons"
 ---
 
+How often do you click an article that looks interesting, only to realize it was complete bullshit? Or read something that seemed promising, but turned out to be a draining waste of time? Well, if you clicked that link on a social media, you are shit out of luck: you're about to get served more similar content. And you just encouraged the creators to make more similar stuff, because they have no idea you just want your 15 minutes back.
+
 Smartphones have been called ["slot machines in our pockets"](http://www.spiegel.de/international/zeitgeist/smartphone-addiction-is-part-of-the-design-a-1104237.html). The [Time Well Spent movement](http://humanetech.com/) is challenging the media giants' focus on hijacking our attention. Outrage is growing over issues such as "fake news" and other artificial viral content, to the extent that major advertising players are [pushing back with their wallets](http://www.foodingredientsfirst.com/news/unilevers-advertising-ultimatum-to-facebook-and-google-clean-up-toxic-content.html).
 
 The algorithms that vie for our attention all rely on *signals*: pieces of data that can inform their decisions. We create a torrent of signals that the data-hungry models gulp up. A click is a signal. Time spent on a web page is a signal. Comments, reactions, where you have just been and where you go next, all signals that are used to create new content recommendations which makes us produce new signals which generate new recommendations. And around it goes.
