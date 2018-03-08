@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The problem with 8^8 (or "Just Checking Your Math On That")
-date: 2015-05-18 06:12:00 +0100
+date: 2015-05-18 06:02:00 +0100
 categories: old-posts
 
 thumbnail:
@@ -81,8 +81,7 @@ combination is equally likely, which should be pretty close to the truth.)
 > Here’s the math: [http://mathworld.wolfram.com/BirthdayProblem.html][wolfram-birthday]. The equation to use is: 
 >
 > ![eqatuion1](http://mathworld.wolfram.com/images/equations/BirthdayProblem/Inline15.gif) 
- = 
- ![equation2](http://mathworld.wolfram.com/images/equations/BirthdayProblem/Inline20.gif)
+ = ![equation2](http://mathworld.wolfram.com/images/equations/BirthdayProblem/Inline20.gif)
 >
 > And here’s what Wolfram spits out: 
 > [http://www.wolframalpha.com/input/?i=1-%288%5E8%29%21%2F%28%288%5E8-56156%29%21*%288%5E8%29%5E56156%29][wolfram-calculation]

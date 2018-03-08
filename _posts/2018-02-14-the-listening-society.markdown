@@ -24,7 +24,7 @@ Much of the 20th century has been characterized by "modernism", a  sort of catch
 
 On [his blog](https://metamoderna.org/), Hanzi Freinacht[^who-is-hanzi], has been thinking about what comes after postmodernism. He chose the name "metamodernism", and it's a sort of Hegelian synthesis of modernism and postmodernism.
 
-According to Hanzi Freinacht, 
+According to Hanzi Freinacht,
 
 > "Metamodernists define themselves through the struggle of value memes against
 > value memes: It's not if you're Right or Left that matters the most, but how
@@ -46,7 +46,7 @@ The metamodern value meme is uniquely well equipped to handle contention and con
 Hierarchies among humans
 ========================
 
-This is all well and good -- a high-level, abstract view of human culture -- but Hanzi shines in his meticulous approach to human development, relating them to the value memes. Basically, Hanzi thinks, to be receptible for a higher value meme, you need to have developed further in four different dimensions (or just really far in one or two of them). 
+This is all well and good -- a high-level, abstract view of human culture -- but Hanzi shines in his meticulous approach to human development, relating them to the value memes. Basically, Hanzi thinks, to be receptible for a higher value meme, you need to have developed further in four different dimensions (or just really far in one or two of them).
 
 The models of human development that Hanzi steals, modifies, and constructs are the real reason you should read this book. The idea of metamodernism and its future supremacy is a good reason for you to do so, but these models are your toolkit. Much like understanding personality types like Myers-Briggs or Big Five will help you navigate your personal relationships better, so will these models help you not only with that, but also thinking about politics, sieving brilliance from banality, and improving yourself.
 
@@ -116,7 +116,7 @@ What makes the book great
 
 Even though it might not be useful for political change in the now (that might change with the next book) the proposed models and value meme classifications make for excellent and robust analytical tools. It is hard not to categorize people once you see the models in play and to do so in a way that gives you some predictive power, at least so I've found since I finished the book. Rarely does non-fiction leave me with such a fresh perspective on the human condition, such an expansion of understanding.
 
-I also think this book might help spark a real political shift. If we put it in the hands of the ambitious and empathetic, I think they will be better equipped to curb some disturbing trends. Even though I of course lack data to back it up, it does seem like are two rampant kinds of disenfranchisement have created classes of people that can be sucked up by metamodernism. 
+I also think this book might help spark a real political shift. If we put it in the hands of the ambitious and empathetic, I think they will be better equipped to curb some disturbing trends. Even though I of course lack data to back it up, it does seem like are two rampant kinds of disenfranchisement have created classes of people that can be sucked up by metamodernism.
 
 The first is the growing disenfranchisement between the ruling classes and the people in many modern welfare states, giving rise to strong xenophobic sentiments and value meme regression, evident in fascists rising in Europe and the US. The ruling classes are most often postmodern, whereas the modern value meme is still dominating society in general. Hanzi calls the [Alt-Right postmodern](https://metamoderna.org/4-things-that-make-the-alt-right-postmodern), and I think he's right. But the Alt-Right is great at rallying the premodernists and postmodernists, giving their values a place in the utterly postmodern, globalized world. Those wishing to combat the Alt-Right, or even Alt-Righters looking to outcompete feminism and identity politics, may look to metamodernism.
 

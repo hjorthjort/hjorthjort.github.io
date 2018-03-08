@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Facebook, Youtube and New Sites Are Collecting the Wrong Data. Here's What They Should Learn From a Finnish Startup."
+title: "Facebook, YouTube and New Sites Are Collecting the Wrong Data. Here's What They Should Learn From a Finnish Startup."
 date: "2018-03-04 01:10:00 -0900"
 
 image:
@@ -15,15 +15,15 @@ Smartphones have been called ["slot machines in our pockets"](http://www.spiegel
 
 The algorithms that vie for our attention all rely on *signals*: pieces of data that can inform their decisions. We create a torrent of signals that the data-hungry models gulp up. A click is a signal. Time spent on a web page is a signal. Comments, reactions, where you have just been and where you go next, all signals that are used to create new content recommendations which makes us produce new signals which generate new recommendations. And around it goes.
 
-**I do feel, however, that there is a signal that platforms like Facebook, Youtube, and big media houses[^platforms] are missing: how I felt my attention was used.**
+**I do feel, however, that there is a signal that platforms like Facebook, YouTube, and big media houses[^platforms] are missing: how I felt my attention was used.**
 
 As the media giants come under pressure for a sole focus on maximizing "engagement," which translates to "time spent on our platform," we can only hope the incentive to keep users happy, not just engaged, will lead to new recommendation strategies.
 
-[Youtube maintains that they already optimize for more than watch time](https://www.theguardian.com/technology/2018/feb/02/how-youtubes-algorithm-distorts-truth) by using surveys and looking for how the user engages by liking or disliking content. But the like and dislike reactions are not signals of how happy we are with how we spent our time. They are signals that say "good job" or "boo!". They don't indicate whether we were happy with our decision to watch or not. They (mainly) suggest to what extent we agree or disagree.
+[YouTube maintains that they already optimize for more than watch time](https://www.theguardian.com/technology/2018/feb/02/how-youtubes-algorithm-distorts-truth) by using surveys and looking for how the user engages by liking or disliking content. But the like and dislike reactions are not signals of how happy we are with how we spent our time. They are signals that say "good job" or "boo!". They don't indicate whether we were happy with our decision to watch or not. They (mainly) suggest to what extent we agree or disagree.
 
 The common theme for all signals is this that they only cover how we feel about the content, not how we feel about *having consumed* the content. This is an important distinction. When I like a long Facebook post, does that mean I'm happy I took the time to read it? No. That is me publicly condoning the contents. When I fail to like, share, comment, reply or use whatever other mechanisms are in place on a platform, or when I downvote or dislike, does that mean I think the content was a waste of time? Again, no. Instead, that is me signaling my level of agreement.
 
-Since many signals on these platforms --- comments on Youtube and new sites, and reactions and comments on Facebook being examples --- are also public, it is evident that honesty should suffer. We are primarily [signaling to our environment](https://en.wikipedia.org/wiki/Signalling_theory).
+Since many signals on these platforms --- comments on YouTube and new sites, and reactions and comments on Facebook being examples --- are also public, it is evident that honesty should suffer. We are primarily [signaling to our environment](https://en.wikipedia.org/wiki/Signalling_theory).
 
 What if we could just signal directly to the platform? What do I do when I'm left drained after reading some content that I clicked? When I feel like this was a waste of my precious time? Sending any signal at all will likely lead to me getting more similar content. But then again, so did clicking it. Once I engaged with the material, my fate was sealed: I will now be seeing more of it. I have to judge my clicks carefully. But this is a paradox, as I can't know what the content will be like without first sending that click signal. The winners in this setup are the click-baiters: they have good chances of getting rated highly without having to consider how they make me, the consumer of their content, feel when I read their material.
 
@@ -43,5 +43,5 @@ Now, just take that same philosophy to its natural conclusion.
 [^platforms]: Of course, this applies to any platform where
     * content from all over the web gets shared, and
     * the content gets ranked by a sophisticated algorithm (not just upvotes/downvotes).
-    
-    To not list them all, I picked Facebook, Youtube, and news sites as examples. But Twitter, Reddit, Medium, to name a few more, could all benefit.
+
+    To not list them all, I picked Facebook, YouTube, and news sites as examples. But Twitter, Reddit, Medium, to name a few more, could all benefit.
