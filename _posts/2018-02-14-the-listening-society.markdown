@@ -131,7 +131,7 @@ Read the book and let me know your thoughts. There are more points of criticism 
 
 You can pick up the book [here](http://amzn.asia/68l1WKu).
 
-P.S. I found a great little article that tries to distinguish value systems, and criticize them. It is called [*The World's Most Toxic Value System*](http://www.uwgb.edu/dutchs/PSEUDOSC/TOXICVAL.HTM). The value system in the title, called *thar* in the article, corresponds well to the "Faustian" value meme. I highly recommend that article as an intro to thinking about value systems if you, like me, are a bit of a relativist to begin with. Go back and read the article again after finishing Hanzis book, and you will see what the book has taught you.
+P.S. I found a great little article that tries to distinguish value systems, and criticize them. It is called [*The World's Most Toxic Value System*](https://web.archive.org/web/20180225104627/https://www.uwgb.edu/dutchs/PSEUDOSC/TOXICVAL.HTM/). The value system in the title, called *thar* in the article, corresponds well to the "Faustian" value meme. I highly recommend that article as an intro to thinking about value systems if you, like me, are a bit of a relativist to begin with. Go back and read the article again after finishing Hanzis book, and you will see what the book has taught you.
 
 [^who-is-hanzi]: Hanzi is, as far as I can tell, a nome-de-plume of two dudes named Daniel Görtz and Emil Ejner Friis, but I'm happy to play along with their fiction.
 [^pre-modern]: There are several premodern value memes, and Hanzi describes them in detail.
