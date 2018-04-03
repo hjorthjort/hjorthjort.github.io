@@ -34,15 +34,18 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
-
-      </div>
       <!-- Google asks that the logo is at least 154 px wide. -->
-      <div id="analytics-blurb-active-state" style="display:none">
-          <a class="page-link" onclick="toggleIncognito()"><img width="154px" id="analytics" src="{{ site.baseurl }}/assets/img/google_analytics.png"></a>
-          Google Analytics are on. Click to disable.
       </div>
-      <div id="analytics-blurb-inactive-state" style="display:none">
-          <a class="page-link" onclick="toggleIncognito()"><img width="154px" id="analytics" src="{{ site.baseurl }}/assets/img/google_analytics_inactive.png"></a> Google Analytics are off. Cookies are being used.</div>
+
+      <div class="footer-analytics">
+          <div id="analytics-blurb-active-state" style="display:none" onclick="toggleIncognito()">
+              <img width="154px" id="analytics" src="{{ site.baseurl }}/assets/img/google_analytics.png">
+              <p>Google Analytics are on. Click to disable.</p>
+          </div>
+          <div id="analytics-blurb-inactive-state" style="display:none" onclick="toggleIncognito()">
+              <img width="154px" id="analytics" src="{{ site.baseurl }}/assets/img/google_analytics_inactive.png">
+              <p>Google Analytics are off. Cookies are being used.</p>
+          </div>
       </div>
 <script>
     // Make sure logo and message display correctly on page load.

@@ -140,6 +140,20 @@
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
+.footer-analytics {
+    margin: 1.5em auto auto auto;
+    display: block;
+    p {
+        font-size: $extra-small-font-size;
+        text-align: center;
+        margin: 0;
+    }
+    img {
+        display: block;
+        margin: -10px auto -10px auto;
+        float: top;
+    }
+}
 
 @include media-query($on-laptop) {
     .footer-col-1,
