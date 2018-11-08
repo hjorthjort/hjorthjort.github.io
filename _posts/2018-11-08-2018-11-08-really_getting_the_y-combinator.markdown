@@ -213,7 +213,7 @@ into the expression for ω? What results do you expect?
 
 What if we stick it in front of the body of the left expression?
 
-![(lambda x . f (x x)) (lambda x . x x) => f (lambda x . x x) (lambda x . x x)]({{ "/assets/img/y-combinator/omega7.jpg" }})
+![(lambda x . f (x x)) (lambda x . x x) => f (lambda x . x x) (lambda x . x x)]({{ "/assets/img/y-combinator/y1.jpg" }})
 
 Let's think a bit about it before we move on. If we look at the left side of the
 ω-combinator, it's a function that just applies its input to itself. What we
@@ -222,7 +222,7 @@ tried above just wraps that in `f` once, so it doesn't work. The input, however
 should be slapping the `f` on the body there, which should result in that `f`
 sticking around, always applying to the new input.
 
-![(lambda x . x x) (lambda x . f (x x)) => f (lambda x . f (x x)) (lambda x . f (x x))]({{ "/assets/img/y-combinator/omega8.jpg" }})
+![(lambda x . x x) (lambda x . f (x x)) => f (lambda x . f (x x)) (lambda x . f (x x))]({{ "/assets/img/y-combinator/y2.jpg" }})
 
 Great! Just a small issue left: we hard-coded the `f` in there, but we want it
 to be an arbitrary function that we could pass in. But that's just the use case
@@ -230,7 +230,7 @@ for variable abstraction, so we just make a λ-abstraction over `f`. Also, for
 symmetry (making a bit easier to remember), we use the result after the first
 reduction, which has `f` in both the left and right expression.
 
-![\lambda f . (lambda x . f (x x)) (lambda x . f (x x)), The Y-combinator]({{ "/assets/img/y-combinator/omega9.jpg" }})
+![\lambda f . (lambda x . f (x x)) (lambda x . f (x x)), The Y-combinator]({{ "/assets/img/y-combinator/y3.jpg" }})
 
 There you have it -- that's the Y-combinator in all its glory. Slap in any
 function and you'll find that it reproduces endlessly.
