@@ -6,4 +6,5 @@ _site
 ### My own ignores ###
 ######################
 
+.hyde.el
 tmp
