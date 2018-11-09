@@ -10,9 +10,9 @@ style: |
 ---
 *Note: I assume you already know some λ-calculus, at least how to apply an expression to a function. If you need a primer, look [here](https://ebzzry.io/en/lambda-calculus/), especially the section called "Function application".*
 
-If you're amything like me, you are 1) interested in λ-calculus, and 2) a
-bit dissatisifed. You may or may not know about the Y-combinator, and its
-immense importance. It is a construct than enables recursion, and as a result [causes some problems](https://en.wikipedia.org/wiki/Curry%27s_paradox#Lambda_calculus). There are also
+If you're anything like me, you are 1) interested in λ-calculus, and 2) a
+bit dissatisfied. You may or may not know about the Y-combinator and its
+immense importance. It is a construct that enables recursion, and as a result, [causes some problems](https://en.wikipedia.org/wiki/Curry%27s_paradox#Lambda_calculus). There are also
 other cool combinators. And here's how they are usually explained to me:
 
 **Clever person**: The Y-combinator looks like this. [Shows me some lambda expression.]
@@ -32,8 +32,8 @@ other cool combinators. And here's how they are usually explained to me:
 Wholly unsatisfactory. I want to understand how I could construct it. I don't
 think Haskell Curry just stared at the problem of recursion in λ-calculus
 until a really cool expression jumped up at him an introduced itself as "Mr. Y".
-Or maybe it did -- logicans, am I right? -- but I'm an engineer, and I want ways,
-methods and techniques.
+Or maybe it did -- logicians, am I right? -- but I'm an engineer, and I want ways,
+methods, and techniques.
 
 
 An aside about math and proofs
@@ -41,8 +41,8 @@ An aside about math and proofs
 
 As anyone who has ever tried to construct a proof knows, it's
 not a straightforward process. It requires various degrees of knowledge,
-strategy, imagination, inspiration and luck to come up with a good proof.
-Constructing a proof may take many turns and dead ends, but in the end it
+strategy, imagination, inspiration, and luck to come up with a good proof.
+Constructing a proof may take many turns and dead ends, but in the end, it
 usually comes down to making some sound decisions along the way and
 looking in just the right direction at just the right time. But that is not how
 proofs are presented in books. They work more like a map, which is great if
@@ -55,16 +55,17 @@ is that they tend to be "clever". They show you a construction, and that it
 works. But more than in the other branches of math I've covered, the
 constructions seem to appear out of thin air. That makes it both more boring to
 learn, and harder to remember (the number of times I've looked up the
-Y-combinator just to forget it 3 secondes later...)
+Y-combinator just to forget it 3 seconds later...)
 
 The Y-combinator
 ===
+<!-- Improvement: Don't say that x is "any expression". Let it just be a variable. Otherwise foo and bar are not fully reduced... -->
 
 A combinator is just a lambda expression *with no free variables*. The point of
 having combinators is that you can combine them (duh) and in theory, work only
 with a set of ready-made combinator functions and never worry about the details
 of making your own λ-abstractions, etc. It becomes more like doing
-arithmetic: you are applying multiplication `*` without worrying too mch of the
+arithmetic: you are applying multiplication `*` without worrying too much of the
 definition, just by knowing how that specific function it is supposed to
 transform its inputs into an output.
 
@@ -81,7 +82,7 @@ function which applies *f* endlessly to its input.
 called a "fixed point combinator", because successive applications don't
 change the value: if `x = f(x) = f(f(x)) = ...`, then `x` is a fixed point of `f`.
 A cool property is that an expression is never fully reduced: there is always a
-new reduction to be made, because there is always a `Y foo` left in there.
+new reduction to be made because there is always a `Y foo` left in there.
 
 
 Deriving the Y-combinator
@@ -94,7 +95,7 @@ as I can to only take steps that seem logical and motivated our search.
  game](http://worrydream.com/AlligatorEggs/) (make sure to click that link if
  you haven't seen it before!), which
 is an absolutely delightful way to teach it and a great visual construction. I
-don't draw crocodiles very well, but I adopt a similar structure of
+don't draw alligators very well, but I adopt a similar structure of
 presentation as trees, with intermediate "hatching" steps, because that is now
 how I do these things when working them out myself.
 
@@ -116,7 +117,7 @@ It should behave like this:
 loop => loop => loop => ...
 ```
 
-This is of course a pretty pointless tool, but it's the simplest example I can think of that 
+This is, of course, a pretty pointless tool, but it's the simplest example I can think of that 
 
 So, first off, can we guess some structure of the `loop` expression. Well, we
 want it to keep applying forever, so it must be a function application
@@ -148,7 +149,7 @@ foo
 = ...(λ x . (λ x . ( ... λ x. foo ...)) x)
 = ...
 ```
-and that's the corret behavior (it's exactly what we're looking for), but we
+and that's the correct behavior (it's exactly what we're looking for), but we
 can't take this approach, because it means we can't construct the combinator as
 a finite expression.
 
@@ -161,7 +162,7 @@ see what happens if we replace `foo` by another expression, `bar x`.
 Great, that looks a little more as what we started with -- at least now there's
 still an `x` to the right. But we lost the λ-abstraction around bar, and we
 can't just make `bar` a λ-abstraction with a body that contains a λ-abstraction,
-etc., because that would go on forever, like we saw above.
+etc., because that would go on forever like we saw above.
 
 What we can try to do is to make the right `x` a λ-abstraction. That way, we
 might be able to insert it into `bar`. Let's
@@ -197,7 +198,7 @@ loop = (λ x . x x) (λ x . x x)
 ```
 
 As you may have guessed, this combinator already exists, and it has a name: the
-ω-combinator. (ω is a small omega). The reason we started here is because it
+ω-combinator. (ω is a small omega). The reason we started here is that it
 turns out, once you look at the ω-combinator, you can pretty much figure out the
 Y-combinator by making some small adjustments.
 
@@ -238,7 +239,7 @@ function and you'll find that it reproduces endlessly.
 Closing words 
 ==
 
-Thanks for following me thorugh that little construction. It wasn't really a
+Thanks for following me through that little construction. It wasn't really a
 proof of anything (if you want that, try proving that for any `x`, if `x = f(x)`
 then `x = f(f(x)) = f(f(...f(x)...))`, it's straightforward). But imagine for a
 moment that you are Haskell Curry or Alonzo Church thinking about ways to
@@ -280,6 +281,6 @@ encode numbers in λ-calculus, then `if-else`, and finally the `>` relation. If
 you get stuck, you can read about [Church encodings](https://en.wikipedia.org/wiki/Church_encoding) and find some strategies to
 help you along.
 
-Also make sure to look up simply typed lambda calculus, and why the Y-combinator can't be constructed in it, and [why that's a good thing](https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#General_observations)!
+Also, make sure to look up simply typed lambda calculus, and why the Y-combinator can't be constructed in it, and [why that's a good thing](https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#General_observations)!
 
 [^resources]: If you know good resources that take a more constructive approach, please share!
