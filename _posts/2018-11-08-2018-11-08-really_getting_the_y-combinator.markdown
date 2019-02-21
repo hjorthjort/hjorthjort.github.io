@@ -117,7 +117,7 @@ It should behave like this:
 loop => loop => loop => ...
 ```
 
-This is, of course, a pretty pointless tool, but it's the simplest example I can think of that 
+This is, of course, a pretty pointless tool, but it's the simplest example I can think of that at least never stops reducing.
 
 So, first off, can we guess some structure of the `loop` expression. Well, we
 want it to keep applying forever, so it must be a function application
