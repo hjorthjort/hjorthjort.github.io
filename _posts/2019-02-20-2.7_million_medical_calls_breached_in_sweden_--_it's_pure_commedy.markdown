@@ -12,7 +12,7 @@ available on the internet. [Here is a summary in English](https://www.thelocal.s
 
 ![As bad as it looks. The files, in the plain]({{ "/assets/img/1177/files_screenshot.png" }})
 
-Why is this funny? It isn't. It is extremely serious, and I sincerely hope that we fill see *massive* fines, people lose their jobs, and perhaps some more severe criminal charges brought against those whose negligence caused this.
+Why is this funny? It isn't. It is extremely serious, and I sincerely hope that we fill see *massive* fines, people lose their jobs, and perhaps some more severe criminal charges brought against those whose negligence caused this[^19].
 
 But it is also funny. Because the incompetence reads like a Monty Python sketch, or like the ["front fell off" video](https://www.youtube.com/watch?v=3m5qxZm_JqM).
 
@@ -143,3 +143,5 @@ I'm not a security expert. I'm just a computer scientist, I work a lot with comp
 [^17]: Recording VoIP calls and putting them on a NAS via HTTP is not a Very Complex System™. Don't make it sound like you are a big, knowledgeable IT company, and that this is the result of the complexity of modern IT.
 
 [^18]: Finding it was a matter of knowing the IP, and to think to look there. It's like hiding your house key under your rug -- it's fine as long as no one makes the minimal effort of breaking in. And saying it takes a port scan is ridiculous: it was on port 443, which would be in the top 3 you would try first.
+
+[^19]: This sentence got me some valid criticism about not addressing things on the system level, so I elaborated a bit on it. [You can follow the discussion here.](https://news.ycombinator.com/item?id=19218227)
