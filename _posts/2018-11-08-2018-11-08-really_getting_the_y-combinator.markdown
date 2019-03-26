@@ -7,6 +7,7 @@ thumbnail:
 
 style: |
   body { background: white; }
+featured: true
 ---
 *Note: I assume you already know some λ-calculus, at least how to apply an expression to a function. If you need a primer, look [here](https://ebzzry.io/en/lambda-calculus/), especially the section called "Function application".*
 

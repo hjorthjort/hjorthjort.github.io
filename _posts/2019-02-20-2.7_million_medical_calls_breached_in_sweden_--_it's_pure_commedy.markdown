@@ -3,6 +3,7 @@ layout: post
 title: "2.7 million medical calls breached in Sweden, and it's pure comedy"
 thumbnail : 
     url: "/assets/img/1177/files_screenshot.png"
+featured: true
 ---
 
 On Monday, news outlet Computer Sweden [broke the

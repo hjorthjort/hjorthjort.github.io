@@ -2,6 +2,7 @@
 layout: post
 title: "Opt-in Analytics"
 date: "2018-04-01 23:24:56 +0900"
+featured: true
 ---
 
 TL;DR: If you don't want Google Analytics to report anonymous user statistics for me for this site, and you want to browse it anonymously, scroll to the bottom and click the "Google Analytics" logo.

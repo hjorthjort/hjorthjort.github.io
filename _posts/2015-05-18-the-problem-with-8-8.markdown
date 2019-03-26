@@ -3,7 +3,7 @@ layout: post
 title: The problem with 8^8 (or "Just Checking Your Math On That")
 date: 2015-05-18 06:02:00 +0100
 categories: old-posts
-
+featured: true
 thumbnail:
     url: "/assets/eight-eight-footer.png"
 

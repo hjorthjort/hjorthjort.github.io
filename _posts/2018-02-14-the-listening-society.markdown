@@ -2,6 +2,7 @@
 layout: post
 title: "The Listening Society: A critical review"
 date: "2018-02-14 17:44:27 -0900"
+featured: true
 
 image:
     url: "/assets/the-listening-society.jpg"

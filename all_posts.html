@@ -1,0 +1,25 @@
+---
+layout: default
+title: All posts
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+
+      <li>
+          <div class="splash">
+          <div class="thumbnail" style="background-image: url({% if post.thumbnail %}{{ post.thumbnail.url }}{% elsif post.image %}{{ post.image.url }}{% endif %});"></div>
+          <div>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        </div>
+      </li>
+
+    {% endfor %}
+  </ul>
+</div>

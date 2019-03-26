@@ -2,6 +2,7 @@
 layout: post
 title: "The Deathbed Fallacy"
 date: "2018-02-21 12:44:27 +0100"
+featured: true
 
 image:
     url: "/assets/img/Lord_Byron_deathbed.jpg"
