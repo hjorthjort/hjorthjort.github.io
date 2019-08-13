@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-I like dogs more than people, and people more than computers. Interestingly, I spend my days most with computers, and more with people than dogs. 
+I'm a computer scientist specializing in blockchain, formal verification and programming languages.
 
-This blog is a catch-all window of my philosphies to the world. They may reagard software or storytelling. Or they might be stories from unusually interesting hours of my life.
+My current project is [KWasm](https://github.com/kframework/wasm-semantics).
+I want to verify WebAssembly programs on blockchains, especially Ethereum.
+
+This website is mostly long-form blogposts about completely different topics.
+It's for the stuff that won't fit in a [tweet](https://www.twitter.com/{{ site.twitter_username }}) and I want to be more shareable than a Facebook post.
 
 Happy reading.

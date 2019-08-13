@@ -9,10 +9,10 @@
 title: hjorthjort
 email: hjort@hjorthjort.xyz
 description: > # this means to ignore newlines until "baseurl:"
-    9 days out of 10 I’m a computer scientist, but my background is in “Misc”. Will pretend to be charming and interesting for attention.
+    9 days out of 10 I’m a computer scientist, but my background is in “Misc”.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hjorthjort.github.io" # the base hostname & protocol for your site
-twitter_username: hjortgjort
+twitter_username: rikardhjort
 github_username:  hjorthjort
 medium_username: rikardhjort
 
