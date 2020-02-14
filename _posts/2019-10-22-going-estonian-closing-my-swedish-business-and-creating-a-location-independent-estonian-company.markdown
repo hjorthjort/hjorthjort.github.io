@@ -2,6 +2,8 @@
 layout: post
 title: "Going Estonian: Closing my Swedish Business and Creating a Location Independent Estonian Company"
 date: "2019-10-22 18:06:24 +0200"
+thumbnail:
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/2560px-Flag_of_Estonia.svg.png"
 ---
 
 Today I applied to become an Estonian e-Resident.
