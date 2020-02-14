@@ -19,7 +19,8 @@ But it gives me a login to their e-Bureaucracy, where I can deal with the proper
 That feels very 2019.
 
 I'm using [Xolo](xolo.io) for all this.
-The product Xolo Leap is priced at 79 euros per month, helping me get started and doing my accounting and taxes.
+The product Xolo Leap is priced at 79 euros per month (49 euros until I start making money), helping me get started and doing my accounting and taxes.
+There are some associated startup costs, like ~230 euros in state fee.
 
 What do I hope to gain from this? I count three things.
 1. Never having to do this again.
