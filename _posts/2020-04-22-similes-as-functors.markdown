@@ -4,6 +4,7 @@ title: "Analogies, similes and metaphors as Functors: A Gently Introduction to C
 date: "2020-04-22 22:06:00 +0200"
 thumbnail:
     url: "https://bartoszmilewski.files.wordpress.com/2015/01/functor.jpg"
+featured: true
 ---
 
 I got [nerd-sniped](https://xkcd.com/356/).
