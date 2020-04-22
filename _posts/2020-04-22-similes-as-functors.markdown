@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Analogies, similes and metaphors as Functors: A Gently Introduction to Category Theory"
+title: "Analogies are Functors: A Gentle Introduction to Category Theory"
 date: "2020-04-22 22:06:00 +0200"
 thumbnail:
     url: "https://bartoszmilewski.files.wordpress.com/2015/01/functor.jpg"
