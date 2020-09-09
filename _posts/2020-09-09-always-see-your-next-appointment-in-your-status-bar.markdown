@@ -34,11 +34,8 @@ Now, run `crontab -e` and edit your crontab file to contain the following entry:
 # Delete the date.
 # Avoid the long space between time and title, repalce by colon.
 # Add a message at the bottom, will show if there are no events in the selected period.
-*/5 * * * * export DIR="<ATTENTION: Choose a directory>" ; gcalcli --refresh --nocolor agenda --military --nostarted --nodeclined --tsv "`date`" "`date -d '+1 day'`" | sed -s '/00:00.*00:00/d' | awk 'BEGIN{FS="\t"}{print $2 "-" $4 ": " $5}' | head -1 > $DIR/next_appointment.txt.tmp && rm $DIR/next_appointment.txt ; mv $DIR/next_appointment.txt.tmp $DIR/next_appointment.txt
-``**
-
-**NOTE**: Change the location of the temporary file to suit you.
-I have a `tmp/` directory in my home directory that I point to.
+*/5 * * * * gcalcli --refresh --nocolor agenda --military --nostarted --nodeclined --tsv "`date`" "`date -d '+1 day'`" | sed -s '/00:00.*00:00/d' | awk 'BEGIN{FS="\t"}{print $2 "-" $4 ": " $5}' | head -1 > /tmp/next_appointment.txt.tmp && rm /tmp/next_appointment.txt ; mv /tmp/next_appointment.txt.tmp /tmp/next_appointment.txt
+```
 
 This is crude, but fairly robust.
 
@@ -61,7 +58,7 @@ Add the following to your `.i3status.conf`  file:
 read_file gcal {
         format = "%content"
         format_bad = "%title: no cal file"
-        path = "<ATTENTION: Same directory as above>/next_appointment.txt"
+        path = "/tmp/next_appointment.txt"
         Max_characters = 60
 }
 ```
