@@ -9,6 +9,8 @@ thumbnail :
 If you use Google Calendar, here's a neat trick to quickly see your next appointment in a dashboard, status bar, or similar.
 I use it with i3status, but it works just as well with any dashboard tool.
 
+Setup time: 20 min
+
 ![A picture of my i3 status bar, with my next appointment in green]( {{ "/assets/img/gcal-status/i3status.png" }} )
 
 I have it configured to only show *one* event, and only if it starts in the next 24 hours, but you can configure this as you like.
@@ -37,18 +39,16 @@ Now, run `crontab -e` and edit your crontab file to contain the following entry:
 */5 * * * * gcalcli --refresh --nocolor agenda --military --nostarted --nodeclined --tsv "`date`" "`date -d '+1 day'`" | sed -s '/00:00.*00:00/d' | awk 'BEGIN{FS="\t"}{print $2 "-" $4 ": " $5}' | head -1 > /tmp/next_appointment.txt.tmp && rm /tmp/next_appointment.txt ; mv /tmp/next_appointment.txt.tmp /tmp/next_appointment.txt
 ```
 
-This is crude, but fairly robust.
+This is crude, but robust.
 
 The `gcalcli` command will give you all upcoming events that fulfill the following:
 - start in the next 24 hours,
-- has not yet started (good way to ensure you don't show ongoing all-day events),
+- has not yet started (to hide ongoing all-day or long-running events),
 - you haven't declined.
 
-Then, all-day event are deleted with the first `sed` command (they are displayed as running from midnight to midnight).
+Then, all-day events are deleted with the first `sed` command (they are displayed as running from midnight to midnight).
 After that, the output is formatted with `awk`, and the first event is extracted with `head -1`.
 The output redirected to a temporary file, any existing file is removed, and the tempfile is moved to it's place.
-
-Note that this uses 
 
 ## Showing The Appointment in i3status
 
