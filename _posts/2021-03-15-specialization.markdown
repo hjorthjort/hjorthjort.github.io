@@ -47,3 +47,12 @@ their own personal alienation. But to the customer (or client, or citizen),
 trying to make the strange machine do his bidding, the worker becomes doubly
 alienated by being both a cog in that machine, and being an incomprehensible
 cog, because the machine is so darn complex. 
+
+---
+
+Inspired by
+
+- Slate Star Codex
+  - ["I Aten't Dead"](https://slatestarcodex.com/2013/07/09/i-atent-dead/)
+  - ["Who By Very Slow Decay"](https://slatestarcodex.com/2013/07/17/who-by-very-slow-decay/)
+- the description of call-center work in this podcast (in Swedish): https://underproduktion.se/80-zlatan-ager-libsen/
