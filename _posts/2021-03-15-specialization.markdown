@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Spezialization breeds alienation"
+title: "Specialization breeds alienation"
 date: "2021-03-15 14:41:42 +0100"
 ---
 
-Spezialization breeds alienation. [Marx covered
-this.](ihttps://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation). But I
+Specialization breeds alienation. [Marx covered
+this](ihttps://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation). But I
 want to extend on the idea a bit further, and place it in the context uf the
 ultra-modern capitalist economic machine.
 
@@ -20,7 +20,7 @@ customer, because the system that has engendered them is so vastly complex that
 hardly even the people managing it understand how it came to be.
 
 How could the call center worker at Big Corp trigger any empathy in the the
-angry customer, when the customer is angry because they belive Big Corp tricked
+angry customer, when the customer is angry because they believe Big Corp tricked
 him in to signing a subscription they didn't want -- when actually, the shady
 salesman was from another company working on commission, evading responsibility
 by being unreachable and mostly invisible, while working under the big name
@@ -52,7 +52,5 @@ cog, because the machine is so darn complex.
 
 Inspired by
 
-- Slate Star Codex
-  - ["I Aten't Dead"](https://slatestarcodex.com/2013/07/09/i-atent-dead/)
-  - ["Who By Very Slow Decay"](https://slatestarcodex.com/2013/07/17/who-by-very-slow-decay/)
-- the description of call-center work in this podcast (in Swedish): https://underproduktion.se/80-zlatan-ager-libsen/
+- Slate Star Codex: ["I Aten't Dead"](https://slatestarcodex.com/2013/07/09/i-atent-dead/) and ["Who By Very Slow Decay"](https://slatestarcodex.com/2013/07/17/who-by-very-slow-decay/)
+- the description of call-center work in [this podcast](https://underproduktion.se/80-zlatan-ager-libsen/) (in Swedish)
